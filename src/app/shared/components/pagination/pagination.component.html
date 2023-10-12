@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="pagination-wrapper">
+        <button class="end-btn" (click)="onPagePrev()" [disabled]="isFirstPage()"> Prev </button>
+        <div class="page-no-wrapper">
+            <button *ngFor="let a of createPageNoRange(); let i = index"
+                [ngClass]="{'page-no' : true, 'active': i==pageOptions.currentPage}" (click)="selectPage(i)">
+                {{i + 1}}
+            </button>
+        </div>
+        <button class="end-btn" (click)="onPageNext()" [disabled]="isLastPage()"> Next </button>
+    </div>
+</div>

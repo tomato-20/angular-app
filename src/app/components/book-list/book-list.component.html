@@ -1,0 +1,28 @@
+<div class="container">
+    <h2>Books List</h2>
+    <app-search (search)="onSearch($event)"></app-search>
+    <ng-container *ngIf="(books$ | async) as books">
+        <div class="book-list grid">
+            <div class="book-item" *ngFor="let book of books | paginate : {
+            currentPage : page.currentPage,
+            perPage : page.perPage
+        }">
+                <img [src]="book.volumeInfo.imageLinks.thumbnail" [alt]="book.volumeInfo.title" />
+                <div class="book-item-body">
+                    <p class="book-title">{{book.volumeInfo.title}} </p>
+                    <span class="book-authors">by {{book.volumeInfo.authors}}</span>
+                    <div class="wish-btn-container">
+                        <button class="wish-btn" *ngIf="!(isInCollection(book.id) | async); else isIncludedInCollection"
+                            (click)="onAddFromCollection(book)">Add to
+                            Collection</button>
+                        <ng-template #isIncludedInCollection> <button class="wish-btn" disabled="true">Added</button>
+                        </ng-template>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <app-pagination [totalItems]="books.length" [perPage]="page.perPage"
+            (onPageChange)="onPageChange($event)"></app-pagination>
+        <app-book-collection> </app-book-collection>
+    </ng-container>
+</div>

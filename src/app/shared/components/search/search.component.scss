@@ -1,0 +1,31 @@
+@import "/src/assets/scss/styles.scss";
+
+div.searchbox-wrapper {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+
+  form {
+    width: 100%;
+    display: flex;
+  }
+
+  input {
+    padding: 0.3em;
+    width: 80%;
+    font-size: 1.2em;
+  }
+
+  button,
+  button.page-no {
+    border: none;
+    background-color: $blue-dark-m;
+    color: white;
+    font-size: 1.2em;
+    padding: 8px;
+
+    &:hover:not(:disabled) {
+      background-color: $blue-light-l;
+      cursor: pointer;
+    }
+  }
+}

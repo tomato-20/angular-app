@@ -1,0 +1,45 @@
+@import '/src/assets/scss/styles.scss';
+
+button {
+  border: none;
+  padding: 0.5em;
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
+  
+  &.remove-button {
+    color: white;
+    background-color: $torquoise-dark-l;
+  }
+
+  &.change-status-button {
+    margin-top: 0.5em;
+    background-color: $torquoise-light-s;
+  }
+}
+
+
+.reading-status-wrapper {
+  .reading-status-wrapper-title {
+    margin-bottom: 1em;
+  }
+
+  #reading-status-select {
+    width: 250px;
+    padding: 0.8em;
+  }
+
+  button {
+    padding: 1em;
+    display: inline;
+    width: 5.2em;
+    margin-left: 1em;
+  }
+}
+
+
+
+img {
+  width: 100%;
+  height: auto;
+}

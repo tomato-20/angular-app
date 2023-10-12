@@ -1,0 +1,2213 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "todo": "Do something nice for someone I care about",
+      "completed": true
+    },
+    {
+      "id": 2,
+      "todo": "Memorize the fifty states and their capitals",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "todo": "Watch a classic movie",
+      "completed": false
+    },
+    {
+      "id": 4,
+      "todo": "Contribute code or a monetary donation to an open-source software project",
+      "completed": false
+    },
+    {
+      "id": 5,
+      "todo": "Solve a Rubik's cube",
+      "completed": false
+    },
+    {
+      "id": 6,
+      "todo": "Bake pastries for me and neighbor",
+      "completed": false
+    },
+    {
+      "id": 7,
+      "todo": "Go see a Broadway production",
+      "completed": false
+    },
+    {
+      "id": 8,
+      "todo": "Write a thank you letter to an influential person in my life",
+      "completed": true
+    },
+    {
+      "id": 9,
+      "todo": "Invite some friends over for a game night",
+      "completed": false
+    },
+    {
+      "id": 10,
+      "todo": "Have a football scrimmage with some friends",
+      "completed": false
+    },
+    {
+      "id": 11,
+      "todo": "Text a friend I haven't talked to in a long time",
+      "completed": false
+    },
+    {
+      "id": 12,
+      "todo": "Organize pantry",
+      "completed": true
+    },
+    {
+      "id": 13,
+      "todo": "Buy a new house decoration",
+      "completed": false
+    },
+    {
+      "id": 14,
+      "todo": "Plan a vacation I've always wanted to take",
+      "completed": false
+    },
+    {
+      "id": 15,
+      "todo": "Clean out car",
+      "completed": false
+    }
+  ],
+  "books": [
+    {
+      "kind": "books#volume",
+      "id": "yrVEBsjWiBcC",
+      "etag": "Wb9FCmV2nlw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/yrVEBsjWiBcC",
+      "volumeInfo": {
+        "title": "Awakenings",
+        "authors": [
+          "Oliver Sacks"
+        ],
+        "publisher": "Vintage",
+        "publishedDate": "1999-10-05",
+        "description": "Awakenings--which inspired the major motion picture--is the remarkable story of a group of patients who contracted sleeping-sickness during the great epidemic just after World War I. Frozen for decades in a trance-like state, these men and women were given up as hopeless until 1969, when Dr. Oliver Sacks gave them the then-new drug L-DOPA, which had an astonishing, explosive, \"awakening\" effect. Dr. Sacks recounts the moving case histories of his patients, their lives, and the extraordinary transformations which went with their reintroduction to a changed world.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0375704051"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780375704055"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 466,
+        "printType": "BOOK",
+        "categories": [
+          "Psychology"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 8,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=yrVEBsjWiBcC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=yrVEBsjWiBcC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=yrVEBsjWiBcC&q=oliver+sacks&dq=oliver+sacks&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=yrVEBsjWiBcC&dq=oliver+sacks&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Awakenings.html?hl=&id=yrVEBsjWiBcC"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=yrVEBsjWiBcC&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Awakenings—which inspired the major motion picture starring Robert DeNiro and Robin Williams—is the remarkable story of a group of patients who contracted sleeping-sickness during the great epidemic just after World War I. Frozen for ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "tOjavKkVRNoC",
+      "etag": "X8kKLnCOXhI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/tOjavKkVRNoC",
+      "volumeInfo": {
+        "title": "Seeing Voices",
+        "subtitle": "A Journey Into the World of the Deaf",
+        "authors": [
+          "Oliver Sacks",
+          "Oliver W. Sacks"
+        ],
+        "publisher": "Univ of California Press",
+        "publishedDate": "1989-01-01",
+        "description": "A neurologist investigates the world of the deaf, examining their past and present treatment at the hands of society, and assesses the value and significance of sign language.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0520060830"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780520060838"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 204,
+        "printType": "BOOK",
+        "categories": [
+          "Social Science"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 12,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.4.4.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=tOjavKkVRNoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=tOjavKkVRNoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=tOjavKkVRNoC&printsec=frontcover&dq=oliver+sacks&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=tOjavKkVRNoC&dq=oliver+sacks&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Seeing_Voices.html?hl=&id=tOjavKkVRNoC"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Seeing_Voices-sample-pdf.acsm?id=tOjavKkVRNoC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=tOjavKkVRNoC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "A neurologist investigates the world of the deaf, examining their past and present treatment at the hands of society, and assesses the value and significance of sign language."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "kPi_vKQf-WMC",
+      "etag": "ER/peHAFZ2U",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/kPi_vKQf-WMC",
+      "volumeInfo": {
+        "title": "A Leg to Stand On",
+        "authors": [
+          "Oliver Sacks",
+          "Oliver W. Sacks"
+        ],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "1998-04-29",
+        "description": "Originally published: New York: Summit Books, 1984.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780684853956"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0684853957"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 229,
+        "printType": "BOOK",
+        "categories": [
+          "Biography & Autobiography"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 5,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.3.1.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=kPi_vKQf-WMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=kPi_vKQf-WMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=kPi_vKQf-WMC&printsec=frontcover&dq=oliver+sacks&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=kPi_vKQf-WMC&dq=oliver+sacks&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/A_Leg_to_Stand_On.html?hl=&id=kPi_vKQf-WMC"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=kPi_vKQf-WMC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Originally published: New York: Summit Books, 1984."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "7qiVCwAAQBAJ",
+      "etag": "KT04HN5UKgI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/7qiVCwAAQBAJ",
+      "volumeInfo": {
+        "title": "On the Move",
+        "subtitle": "A Life",
+        "authors": [
+          "Oliver Sacks"
+        ],
+        "publisher": "Pan Macmillan",
+        "publishedDate": "2016-02-25",
+        "description": "Physician and writer Oliver Sacks recounts his experiences as a young neurologist; his physical passions--weight lifting and swimming; his love affairs, both romantic and intellectual; his guilt over leaving his family to come to America; his bond with his schizophrenic brother; and the writers and scientists--Thom Gunn, A.R. Luria, W.H. Auden, Gerald M. Edelman, Francis Crick--who influenced him.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781447264064"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1447264061"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 446,
+        "printType": "BOOK",
+        "categories": [
+          "Biography & Autobiography"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.3.0.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=7qiVCwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=7qiVCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=7qiVCwAAQBAJ&dq=oliver+sacks&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=7qiVCwAAQBAJ&dq=oliver+sacks&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/On_the_Move.html?hl=&id=7qiVCwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=7qiVCwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "On the Move is the story of a brilliantly unconventional physician and writer, a man who has illuminated the many ways that the brain makes us human."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "nc2dE9swe0sC",
+      "etag": "PPDosmnny6E",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/nc2dE9swe0sC",
+      "volumeInfo": {
+        "title": "The Man Who Mistook His Wife For A Hat: And Other Clinical Tales",
+        "authors": [
+          "Oliver Sacks",
+          "Oliver W. Sacks"
+        ],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "1998",
+        "description": "Explores neurological disorders and their effects upon the minds and lives of those affected with an entertaining voice.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780684853949"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0684853949"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 262,
+        "printType": "BOOK",
+        "categories": [
+          "Biography & Autobiography"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 3424,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.3.1.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=nc2dE9swe0sC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=nc2dE9swe0sC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=nc2dE9swe0sC&printsec=frontcover&dq=oliver+sacks&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=nc2dE9swe0sC&dq=oliver+sacks&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Man_Who_Mistook_His_Wife_For_A_Hat_A.html?hl=&id=nc2dE9swe0sC"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=nc2dE9swe0sC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Explores neurological disorders and their effects upon the minds and lives of those affected with an entertaining voice."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Z1XoRQAACAAJ",
+      "etag": "U4OPZk7c5TY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Z1XoRQAACAAJ",
+      "volumeInfo": {
+        "title": "The Mind's Eye",
+        "authors": [
+          "Oliver W. Sacks"
+        ],
+        "publisher": "Picador USA",
+        "publishedDate": "2010",
+        "description": "Includes stories of people who are able to navigate the world and communicate with others despite losing what many of us consider indispensable senses and faculties: the power of speech, the capacity to recognize faces, the sense of three-dimensional space, the ability to read, and the sense of sight. This book is a testament to the complexity of vision and the brain and to the power of creativity and adaptation, and it provides a whole new perspective on the power of language and communication, as we try to imagine what it is to perceive through another person's eyes, or another person's mind.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "033050889X"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780330508896"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 0,
+        "printType": "BOOK",
+        "categories": [
+          "Blindness"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 28,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Z1XoRQAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Z1XoRQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=Z1XoRQAACAAJ&dq=oliver+sacks&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=Z1XoRQAACAAJ&dq=oliver+sacks&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Mind_s_Eye.html?hl=&id=Z1XoRQAACAAJ"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Z1XoRQAACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This book is a testament to the complexity of vision and the brain and to the power of creativity and adaptation, and it provides a whole new perspective on the power of language and communication, as we try to imagine what it is to ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "INKaMQEACAAJ",
+      "etag": "hHFwFCPMMQw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/INKaMQEACAAJ",
+      "volumeInfo": {
+        "title": "Hallucinations",
+        "authors": [
+          "Oliver Sacks"
+        ],
+        "publisher": "Picador",
+        "publishedDate": "2013-08",
+        "description": "Have you ever seen something that wasn't really there? Heard someone call your name in an empty house? Sensed someone following you and turned around to find nothing?Hallucinations don't belong wholly to the insane. Much more commonly, they are linked to sensory deprivation, intoxication, illness, or injury. In some conditions, hallucinations can lead to religious epiphanies or even the feeling of leaving one's own body. Humans have always sought such life-changing visions, and for thousands of years have used hallucinogenic compounds to achieve them.In this book, with his usual elegance, curiosity and compassion, Dr Sacks weaves together stories of his patients and of his own mind-altering experiences to illuminate what hallucinations tell us about the organization and structure of our brains, how they have influenced every culture's folklore and art, and why the potential for hallucination is present in us all, a vital part of the human condition.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1447208269"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781447208266"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 322,
+        "printType": "BOOK",
+        "categories": [
+          "Cognition disorders"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 42,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=INKaMQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=INKaMQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=INKaMQEACAAJ&dq=oliver+sacks&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=INKaMQEACAAJ&dq=oliver+sacks&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Hallucinations.html?hl=&id=INKaMQEACAAJ"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=INKaMQEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Drawing on a wealth of clinical examples from his own patients as well as historical and literary descriptions, Oliver Sacks investigates the fundamental differences and similarities of many sorts of hallucinations."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "wPWMEAAAQBAJ",
+      "etag": "0QR+WLnOoX0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/wPWMEAAAQBAJ",
+      "volumeInfo": {
+        "title": "The Mind's Eye",
+        "authors": [
+          "Oliver Sacks"
+        ],
+        "publisher": "National Geographic Books",
+        "publishedDate": "2011-10-04",
+        "description": "With compassion and insight, Dr. Oliver Sacks again illuminates the mysteries of the brain by introducing us to some remarkable characters, including Pat, who remains a vivacious communicator despite the stroke that deprives her of speech, and Howard, a novelist who loses the ability to read. Sacks investigates those who can see perfectly well but are unable to recognize faces, even those of their own children. He describes totally blind people who navigate by touch and smell; and others who, ironically, become hyper-visual. Finally, he recounts his own battle with an eye tumor and the strange visual symptoms it caused. As he has done in classics like The Man Who Mistook his Wife for a Hat and Awakenings, Dr. Sacks shows us that medicine is both an art and a science, and that our ability to imagine what it is to see with another person's mind is what makes us truly human.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780307473028"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0307473023"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 0,
+        "printType": "BOOK",
+        "categories": [
+          "Psychology"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 28,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=wPWMEAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=wPWMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=wPWMEAAAQBAJ&dq=oliver+sacks&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=wPWMEAAAQBAJ&dq=oliver+sacks&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Mind_s_Eye.html?hl=&id=wPWMEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=wPWMEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "With compassion and insight, Dr. Oliver Sacks again illuminates the mysteries of the brain by introducing us to some remarkable characters, including Pat, who remains a vivacious communicator despite the stroke that deprives her of speech, ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "h8UgAQAAMAAJ",
+      "etag": "SCBfJSzuhxU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/h8UgAQAAMAAJ",
+      "volumeInfo": {
+        "title": "An Anthropologist on Mars",
+        "subtitle": "Seven Paradoxical Tales",
+        "authors": [
+          "Oliver Sacks"
+        ],
+        "publisher": "Niagara Large Print Books",
+        "publishedDate": "1996",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "NWU:35556027351246"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 504,
+        "printType": "BOOK",
+        "categories": [
+          "Large type books"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 16,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.3.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=h8UgAQAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=h8UgAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=h8UgAQAAMAAJ&q=oliver+sacks&dq=oliver+sacks&hl=&cd=11&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=h8UgAQAAMAAJ&dq=oliver+sacks&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/An_Anthropologist_on_Mars.html?hl=&id=h8UgAQAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=h8UgAQAAMAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "zIPioQEACAAJ",
+      "etag": "71l/iOg7ccY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/zIPioQEACAAJ",
+      "volumeInfo": {
+        "title": "The Man Who Mistook His Wife for a Hat",
+        "authors": [
+          "Oliver Sacks"
+        ],
+        "publisher": "Picador",
+        "publishedDate": "2015-01-01",
+        "description": "With an introduction by Will SelfA classic work of psychology, this international bestseller provides a groundbreaking insight into the human mind.If a man has lost a leg or an eye, he knows he has lost a leg or an eye; but if he has lost a self - himself - he cannot know it, because he is no longer there to know it. In this extraordinary book, Dr. Oliver Sacks recounts the stories of patients struggling to adapt to often bizarre worlds of neurological disorder. Here are people who can no longer recognize everyday objects or those they love; who are stricken with violent tics or shout involuntary obscenities; who have been dismissed as autistic or retarded, yet are gifted with uncanny artistic or mathematical talents. If inconceivably strange, these brilliant tales illuminate what it means to be human. A provocative exploration of the mysteries of the human mind, The Man Who Mistook His Wife for a Hat is a million-copy bestseller by the twentieth century's greatest neurologist.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1447275403"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781447275404"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 300,
+        "printType": "BOOK",
+        "averageRating": 3.5,
+        "ratingsCount": 3415,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=zIPioQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=zIPioQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=zIPioQEACAAJ&dq=oliver+sacks&hl=&cd=12&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=zIPioQEACAAJ&dq=oliver+sacks&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Man_Who_Mistook_His_Wife_for_a_Hat.html?hl=&id=zIPioQEACAAJ"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=zIPioQEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "In this extraordinary book, Dr Oliver Sacks recounts the stories of patients struggling to adapt to often bizarre worlds of neurological disorder."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "vcWNEAAAQBAJ",
+      "etag": "T5/ZnQohBAE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/vcWNEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Gratitude",
+        "authors": [
+          "Oliver Sacks"
+        ],
+        "publisher": "National Geographic Books",
+        "publishedDate": "2015-11-24",
+        "description": "“My predominant feeling is one of gratitude. I have loved and been loved. I have been given much and I have given something in return. Above all, I have been a sentient being, a thinking animal, on this beautiful planet, and that in itself has been an enormous privilege and adventure.” —Oliver Sacks No writer has succeeded in capturing the medical and human drama of illness as honestly and as eloquently as Oliver Sacks. During the last few months of his life, he wrote a set of essays in which he movingly explored his feelings about completing a life and coming to terms with his own death. “It is the fate of every human being,” Sacks writes, “to be a unique individual, to find his own path, to live his own life, to die his own death.” Together, these four essays form an ode to the uniqueness of each human being and to gratitude for the gift of life. “Oliver Sacks was like no other clinician, or writer. He was drawn to the homes of the sick, the institutions of the most frail and disabled, the company of the unusual and the ‘abnormal.’ He wanted to see humanity in its many variants and to do so in his own, almost anachronistic way—face to face, over time, away from our burgeoning apparatus of computers and algorithms. And, through his writing, he showed us what he saw.” —Atul Gawande, author of Being Mortal",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780451492937"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0451492935"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 0,
+        "printType": "BOOK",
+        "categories": [
+          "Biography & Autobiography"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 679,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=vcWNEAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=vcWNEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=vcWNEAAAQBAJ&dq=oliver+sacks&hl=&cd=13&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=vcWNEAAAQBAJ&dq=oliver+sacks&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Gratitude.html?hl=&id=vcWNEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=vcWNEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "During the last few months of his life, he wrote a set of essays in which he movingly explored his feelings about completing a life and coming to terms with his own death. “It is the fate of every human being,” Sacks writes, “to be a ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "MLJoAAAAMAAJ",
+      "etag": "VPyG90lnbN8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/MLJoAAAAMAAJ",
+      "volumeInfo": {
+        "title": "Oaxaca Journal",
+        "authors": [
+          "Oliver Sacks"
+        ],
+        "publisher": "National Geographic Society",
+        "publishedDate": "2002",
+        "description": "This new series of literary travel memoirs presents the world's most prominent novelists, nonfiction writers, poets, and playwrights, many writing about travel for the first time.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UTEXAS:059173009911883"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 190,
+        "printType": "BOOK",
+        "categories": [
+          "Ferns"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 10,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.3.4.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=MLJoAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=MLJoAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=MLJoAAAAMAAJ&q=oliver+sacks&dq=oliver+sacks&hl=&cd=14&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=MLJoAAAAMAAJ&dq=oliver+sacks&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Oaxaca_Journal.html?hl=&id=MLJoAAAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=MLJoAAAAMAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This new series of literary travel memoirs presents the world&#39;s most prominent novelists, nonfiction writers, poets, and playwrights, many writing about travel for the first time."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "X91UBLr64FMC",
+      "etag": "tarwweXU+hY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/X91UBLr64FMC",
+      "volumeInfo": {
+        "title": "The Formation of Stars",
+        "authors": [
+          "Steven W. Stahler",
+          "Francesco Palla"
+        ],
+        "publisher": "John Wiley & Sons",
+        "publishedDate": "2008-07-11",
+        "description": "This book is a comprehensive treatment of star formation, one of the most active fields of modern astronomy. The reader is guided through the subject in a logically compelling manner. Starting from a general description of stars and interstellar clouds, the authors delineate the earliest phases of stellar evolution. They discuss formation activity not only in the Milky Way, but also in other galaxies, both now and in the remote past. Theory and observation are thoroughly integrated, with the aid of numerous figures and images. In summary, this volume is an invaluable resource, both as a text for physics and astronomy graduate students, and as a reference for professional scientists.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783527618682"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3527618686"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 865,
+        "printType": "BOOK",
+        "categories": [
+          "Science"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.6.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=X91UBLr64FMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=X91UBLr64FMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=X91UBLr64FMC&printsec=frontcover&dq=stars&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=X91UBLr64FMC&dq=stars&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Formation_of_Stars.html?hl=&id=X91UBLr64FMC"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/The_Formation_of_Stars-sample-pdf.acsm?id=X91UBLr64FMC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=X91UBLr64FMC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This book is a comprehensive treatment of star formation, one of the most active fields of modern astronomy."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "3eGKDwAAQBAJ",
+      "etag": "5EzIrMJLLPo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/3eGKDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Sky Without Stars",
+        "authors": [
+          "Jessica Brody",
+          "Joanne Rendell"
+        ],
+        "publisher": "Simon Pulse",
+        "publishedDate": "2019-03-26",
+        "description": "“Not to be missed!” —Marissa Meyer, #1 New York Times bestselling author of The Lunar Chronicles “An explosion of emotion, intrigue, romance, and revolution.” —Stephanie Garber, #1 New York Times bestselling author of the Caraval series In the tradition of The Lunar Chronicles, this sweeping reimagining of Les Misérables tells the story of three teens from very different backgrounds who are thrown together amidst the looming threat of revolution on the French planet of Laterre. A thief. An officer. A guardian. Three strangers, one shared destiny… When the Last Days came, the planet of Laterre promised hope. A new life for a wealthy French family and their descendants. But five hundred years later, it’s now a place where an extravagant elite class reigns supreme; where the clouds hide the stars and the poor starve in the streets; where a rebel group, long thought dead, is resurfacing. Whispers of revolution have begun—a revolution that hinges on three unlikely heroes… Chatine is a street-savvy thief who will do anything to escape the brutal Regime, including spy on Marcellus, the grandson of the most powerful man on the planet. Marcellus is an officer—and the son of an infamous traitor. In training to take command of the military, Marcellus begins to doubt the government he’s vowed to serve when his father dies and leaves behind a cryptic message that only one person can read: a girl named Alouette. Alouette is living in an underground refuge, where she guards and protects the last surviving library on the planet. But a shocking murder will bring Alouette to the surface for the first time in twelve years…and plunge Laterre into chaos. All three have a role to play in a dangerous game of revolution—and together they will shape the future of a planet.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781534410633"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1534410635"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 592,
+        "printType": "BOOK",
+        "categories": [
+          "Young Adult Fiction"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 3,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.1.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=3eGKDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=3eGKDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=3eGKDwAAQBAJ&printsec=frontcover&dq=stars&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=3eGKDwAAQBAJ&dq=stars&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Sky_Without_Stars.html?hl=&id=3eGKDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=3eGKDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "“Not to be missed!” —Marissa Meyer, #1 New York Times bestselling author of The Lunar Chronicles “An explosion of emotion, intrigue, romance, and revolution.” —Stephanie Garber, #1 New York Times bestselling author of the ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "y4XvAAAAMAAJ",
+      "etag": "Dl+CAvcAPqk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/y4XvAAAAMAAJ",
+      "volumeInfo": {
+        "title": "Variable Stars and Galaxies",
+        "subtitle": "A Symposium in Honour of Professor Michael W. Feast on His Retirement from the Directorship of the South African Astronomical Observatory, Held at the University of Cape Town, 5-7 February 1992",
+        "authors": [
+          "Brian Warner"
+        ],
+        "publishedDate": "1992",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UOM:39015029219584"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 406,
+        "printType": "BOOK",
+        "categories": [
+          "Astronomy"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.5.1.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=y4XvAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=y4XvAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=y4XvAAAAMAAJ&q=stars&dq=stars&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=y4XvAAAAMAAJ&dq=stars&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Variable_Stars_and_Galaxies.html?hl=&id=y4XvAAAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=y4XvAAAAMAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... <b>stars</b> ( Table I ) . The HB index was used to estimate Terf using the Terp - log 8 grids of Moon &amp; Dworetsky ( 1985 ) . The effective temperatures thus determined for the roAp <b>stars</b> range from 6800 K to 8400 K . These temperatures are&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "jl8Nu4IlqMMC",
+      "etag": "aVQ3esFqKOo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/jl8Nu4IlqMMC",
+      "volumeInfo": {
+        "title": "Stars",
+        "subtitle": "The Film Reader",
+        "authors": [
+          "Lucy Fischer",
+          "Marcia Landy"
+        ],
+        "publisher": "Psychology Press",
+        "publishedDate": "2004",
+        "description": "From two distinguished academics, this book includes contributions from top scholars such as Richard Dyer, and brings together key writings and new perspectives on stars and stardom in cinema across the world.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0415278929"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780415278928"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 324,
+        "printType": "BOOK",
+        "categories": [
+          "Fame"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.4.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=jl8Nu4IlqMMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=jl8Nu4IlqMMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=jl8Nu4IlqMMC&printsec=frontcover&dq=stars&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=jl8Nu4IlqMMC&dq=stars&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Stars.html?hl=&id=jl8Nu4IlqMMC"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Stars-sample-pdf.acsm?id=jl8Nu4IlqMMC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=jl8Nu4IlqMMC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "From two distinguished academics, this book includes contributions from top scholars such as Richard Dyer, and brings together key writings and new perspectives on stars and stardom in cinema across the world."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "pNGnswEACAAJ",
+      "etag": "G45LiI73L9k",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/pNGnswEACAAJ",
+      "volumeInfo": {
+        "title": "Origin",
+        "subtitle": "(Robert Langdon Book 5)",
+        "authors": [
+          "Dan Brown"
+        ],
+        "publisher": "Corgi",
+        "publishedDate": "2018-07",
+        "description": "The spellbinding new Robert Langdon novelfrom the author of The Da Vinci Code. Robert Langdon, Harvard professor of symbology and religious iconology, arrives at the Guggenheim Museum Bilbao to attend the unveiling of a discovery that owill change the face of science forevero. The evening's host is his friend and former student, Edmond Kirsch, a forty-year-old tech magnate whose dazzling inventions and audacious predictions have made him a controversial figure around the world. This evening is to be no exception- he claims he will reveal an astonishing scientific breakthrough to challenge the fundamentals of human existence. But Langdon and several hundred other guests are left reeling when the meticulously orchestrated evening is blown apart before Kirsch's precious discovery can be revealed. With his life under threat, Langdon is forced into a desperate bid to escape, along with the museum's director, Ambra Vidal. Together they flee to Barcelona on a perilous quest to locate a cryptic password that will unlock Kirsch's secret. In their path lie dark forces which will do anything to stop them. To evade a tormented enemy who is one step ahead of them at every turn, Langdon and Vidal must navigate labyrinthine passageways of hidden history and ancient religion. On a trail marked only by enigmatic symbols and elusive modern art, Langdon and Vidal uncover the clues that will bring them face-to-face with a world-shaking truth that has remained buried - until now. 'Dan Brown is the master of the intellectual cliffhanger' Wall Street Journal 'As engaging a hero as you could wish for' Mail on Sunday 'For anyone who wants more brain-food than thrillers normally provide' Sunday Times",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0552174165"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780552174169"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 640,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=pNGnswEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=pNGnswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=pNGnswEACAAJ&dq=dan+brown&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=pNGnswEACAAJ&dq=dan+brown&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Origin.html?hl=&id=pNGnswEACAAJ"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=pNGnswEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "&#39;Dan Brown is the master of the intellectual cliffhanger&#39; Wall Street Journal &#39;As engaging a hero as you could wish for&#39; Mail on Sunday &#39;For anyone who wants more brain-food than thrillers normally provide&#39; Sunday Times"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "DwCNEAAAQBAJ",
+      "etag": "0pVObxRJhZ0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/DwCNEAAAQBAJ",
+      "volumeInfo": {
+        "title": "The Lost Symbol",
+        "authors": [
+          "Dan Brown"
+        ],
+        "publisher": "National Geographic Books",
+        "publishedDate": "2012-05-01",
+        "description": "#1 WORLDWIDE BESTSELLER • An intelligent, lightning-paced thriller set within the hidden chambers, tunnels, and temples of Washington, D.C., with surprises at every turn. • Don’t miss the Peacock original series Dan Brown’s The Lost Symbol! Famed Harvard symbologist Robert Langdon answers an unexpected summons to appear at the U.S. Capitol Building. His plans are interrupted when a disturbing object—artfully encoded with five symbols—is discovered in the building. Langdon recognizes in the find an ancient invitation into a lost world of esoteric, potentially dangerous wisdom. When his mentor Peter Solomon—a long-standing Mason and beloved philanthropist—is kidnapped, Langdon realizes that the only way to save Solomon is to accept the mystical invitation and plunge headlong into a clandestine world of Masonic secrets, hidden history, and one inconceivable truth ... all under the watchful eye of Dan Brown's most terrifying villain to date.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780307950680"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0307950689"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 0,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 104,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=DwCNEAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=DwCNEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=DwCNEAAAQBAJ&dq=dan+brown&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=DwCNEAAAQBAJ&dq=dan+brown&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Lost_Symbol.html?hl=&id=DwCNEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=DwCNEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "#1 WORLDWIDE BESTSELLER • An intelligent, lightning-paced thriller set within the hidden chambers, tunnels, and temples of Washington, D.C., with surprises at every turn. • Don’t miss the Peacock original series Dan Brown’s The Lost ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "GXznEnKwTdAC",
+      "etag": "YZQEeJ0BAWI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/GXznEnKwTdAC",
+      "volumeInfo": {
+        "title": "Angels & Demons - Movie Tie-In",
+        "subtitle": "A Novel",
+        "authors": [
+          "Dan Brown"
+        ],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2009-03-31",
+        "description": "The murder of a world-famous physicist raises fears that the Illuminati are operating again after centuries of silence, and religion professor Robert Langdon is called in to assist with the case.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781416580829"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1416580824"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 498,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 29,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "2.2.1.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=GXznEnKwTdAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=GXznEnKwTdAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=GXznEnKwTdAC&printsec=frontcover&dq=dan+brown&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=GXznEnKwTdAC&dq=dan+brown&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Angels_Demons_Movie_Tie_In.html?hl=&id=GXznEnKwTdAC"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=GXznEnKwTdAC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The murder of a world-famous physicist raises fears that the Illuminati are operating again after centuries of silence, and religion professor Robert Langdon is called in to assist with the case."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "vD-NEAAAQBAJ",
+      "etag": "pxl6MpSGxAE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/vD-NEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Origin",
+        "subtitle": "A Novel",
+        "authors": [
+          "Dan Brown"
+        ],
+        "publisher": "National Geographic Books",
+        "publishedDate": "2017-10-03",
+        "description": "The #1 New York Times Bestseller (October 2017) from the author of The Da Vinci Code. Bilbao, Spain Robert Langdon, Harvard professor of symbology and religious iconology, arrives at the ultramodern Guggenheim Museum Bilbao to attend a major announcement—the unveiling of a discovery that “will change the face of science forever.” The evening’s host is Edmond Kirsch, a forty-year-old billionaire and futurist whose dazzling high-tech inventions and audacious predictions have made him a renowned global figure. Kirsch, who was one of Langdon’s first students at Harvard two decades earlier, is about to reveal an astonishing breakthrough . . . one that will answer two of the fundamental questions of human existence. As the event begins, Langdon and several hundred guests find themselves captivated by an utterly original presentation, which Langdon realizes will be far more controversial than he ever imagined. But the meticulously orchestrated evening suddenly erupts into chaos, and Kirsch’s precious discovery teeters on the brink of being lost forever. Reeling and facing an imminent threat, Langdon is forced into a desperate bid to escape Bilbao. With him is Ambra Vidal, the elegant museum director who worked with Kirsch to stage the provocative event. Together they flee to Barcelona on a perilous quest to locate a cryptic password that will unlock Kirsch’s secret. Navigating the dark corridors of hidden history and extreme religion, Langdon and Vidal must evade a tormented enemy whose all-knowing power seems to emanate from Spain’s Royal Palace itself . . . and who will stop at nothing to silence Edmond Kirsch. On a trail marked by modern art and enigmatic symbols, Langdon and Vidal uncover clues that ultimately bring them face-to-face with Kirsch’s shocking discovery . . . and the breathtaking truth that has long eluded us. Origin is stunningly inventive—Dan Brown's most brilliant and entertaining novel to date.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780385514231"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0385514239"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 0,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 86,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=vD-NEAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=vD-NEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=vD-NEAAAQBAJ&dq=dan+brown&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=vD-NEAAAQBAJ&dq=dan+brown&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Origin.html?hl=&id=vD-NEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=vD-NEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Origin is stunningly inventive—Dan Brown&#39;s most brilliant and entertaining novel to date."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "g40bVuX9wmYC",
+      "etag": "4d8xLdGB2P8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/g40bVuX9wmYC",
+      "volumeInfo": {
+        "title": "The Da Vinci Code",
+        "subtitle": "A Novel",
+        "authors": [
+          "Dan Brown"
+        ],
+        "publishedDate": "2003",
+        "description": "Robert Langdon, Harvard Professor of symbology, receives an urgent late-night call while in Paris: the curator of the Louvre has been murdered. Alongside the body is a series of baffling ciphers. Langdon and a gifted French cryptologist, Sophie Neveu, are stunned to find a trail that leads to the to the works of Da Vinci - and further. The curator, part of a secret society named the Priory of Sion, may have sacrificed his life to keep secret the location of a vastly important religious relic hidden for centuries. It appears that the clandestine Vatican-sanctioned Catholic sect Opus Dei has now made its move. Unless Landon and Neveu can decipher the labyrinthine code and quickly assemble the pieces of the puzzle, the Priory's secret - and a stunning historical truth - will be lost forever.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0593051521"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780593051528"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 468,
+        "printType": "BOOK",
+        "categories": [
+          "American fiction"
+        ],
+        "averageRating": 3,
+        "ratingsCount": 3458,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.1.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=g40bVuX9wmYC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=g40bVuX9wmYC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=g40bVuX9wmYC&q=dan+brown&dq=dan+brown&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=g40bVuX9wmYC&dq=dan+brown&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Da_Vinci_Code.html?hl=&id=g40bVuX9wmYC"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=g40bVuX9wmYC&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Alongside the body is a series of baffling ciphers. Langdon and a gifted French cryptologist, Sophie Neveu, are stunned to find a trail that leads to the to the works of Da Vinci - and further."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "FcI5AQAAMAAJ",
+      "etag": "LD3oFedp4Q0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/FcI5AQAAMAAJ",
+      "volumeInfo": {
+        "title": "Othello, the Moor of Venice",
+        "authors": [
+          "William Shakespeare"
+        ],
+        "publishedDate": "1890",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UOM:39015082147219"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 236,
+        "printType": "BOOK",
+        "categories": [
+          "Interracial marriage"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.5.8.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=FcI5AQAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=FcI5AQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=FcI5AQAAMAAJ&printsec=frontcover&dq=othello&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=FcI5AQAAMAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=FcI5AQAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=FcI5AQAAMAAJ&rdid=book-FcI5AQAAMAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.com/books/download/Othello_the_Moor_of_Venice.epub?id=FcI5AQAAMAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.com/books/download/Othello_the_Moor_of_Venice.pdf?id=FcI5AQAAMAAJ&hl=&output=pdf&sig=ACfU3U1RTxuVidmUoupwTVk1Jp7YHmK_-w&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=FcI5AQAAMAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Jp8c0AEACAAJ",
+      "etag": "4EOLgZlkO90",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Jp8c0AEACAAJ",
+      "volumeInfo": {
+        "title": "The Tempest",
+        "publisher": "Maple Press Pvt Limited",
+        "publishedDate": "1910-01-08",
+        "description": "The Tempest is the fourth, final, and the finest of Shakespeare's great late romances. It is classified as a romantic comedy with a mild element of tragedy in its main plot. The play is set on a remote island, now inhabited by Prospero and his daughter Miranda. He is the rightful Duke of Milan, his throne being usurped by his villainous brother Antonio. When Antonio and his friend King Alonso of Naples, Alonso's son Ferdinand, and others are travelling by a ship, their ship gets wrecked by the storm conjured by Prospero, who has magical powers. With the help of his devoted attendant Ariel, Prospero accomplishes his task to restore Miranda her rightful place. Antonio, his accomplice King Alonso of Naples and his son Ferdinand reach the island after the shipwreck. Love blooms between Miranda and Ferdinand, and Prospero consents to their marriage. Finally, the truth about Antonio is revealed, and Prospero is restored his dukedom .He forgives his brother, and returns to Milan.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "9352231678"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9789352231676"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 0,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Jp8c0AEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Jp8c0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=Jp8c0AEACAAJ&dq=the%25tempest&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=Jp8c0AEACAAJ&dq=the%25tempest&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Tempest.html?hl=&id=Jp8c0AEACAAJ"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Jp8c0AEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The Tempest is the fourth, final, and the finest of Shakespeare&#39;s great late romances. It is classified as a romantic comedy with a mild element of tragedy in its main plot."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "gPOPEAAAQBAJ",
+      "etag": "/DAH0L1gnEw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/gPOPEAAAQBAJ",
+      "volumeInfo": {
+        "title": "William Shakespeare's The Tempest",
+        "authors": [
+          "Georghia Ellinas"
+        ],
+        "publisher": "National Geographic Books",
+        "publishedDate": "2020-04-07",
+        "description": "Discover the Bard’s dazzling play about magic, revenge, and forgiveness, reimagined by Shakespeare’s Globe as a gorgeously illustrated picture book for children. I told him that if I were a mortal, I would forgive them. Ariel is a spirit of the air who can fly, ride on clouds, and glow bright as fire. When his master, the magician Prospero, is overthrown by his brother as the Duke of Milan, Ariel joins Prospero and his baby daughter on a journey that will bring them to a beautiful island ruled by the monstrous Caliban — and to a series of events that lead to a vengeful storm, confounding spells, true romance, and a master who is persuaded to give his transgressors a second chance. Narrated from Ariel’s perspective, the story is told in language that is true to the original play but accessible to all. With exquisite illustrations by acclaimed artist Jane Ray, this captivating retelling is a magical way to introduce children to one of the best-loved works of the world’s greatest playwright.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781536211443"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1536211443"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 0,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=gPOPEAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=gPOPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=gPOPEAAAQBAJ&dq=the%25tempest&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=gPOPEAAAQBAJ&dq=the%25tempest&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/William_Shakespeare_s_The_Tempest.html?hl=&id=gPOPEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=gPOPEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Narrated from Ariel’s perspective, the story is told in language that is true to the original play but accessible to all."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "u8-ywPTzb5YC",
+      "etag": "rSkLUTyMp9k",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/u8-ywPTzb5YC",
+      "volumeInfo": {
+        "title": "Harper Lee",
+        "subtitle": "To Kill a Mockingbird",
+        "authors": [
+          "Andrew Haggerty"
+        ],
+        "publisher": "Marshall Cavendish",
+        "publishedDate": "2010",
+        "description": "An in-depth analysis of Harper Lee, his writings, and the historical time period in which they were written.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0761447024"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780761447023"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 130,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Nonfiction"
+        ],
+        "averageRating": 2,
+        "ratingsCount": 4,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "3.4.7.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=u8-ywPTzb5YC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=u8-ywPTzb5YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=u8-ywPTzb5YC&printsec=frontcover&dq=harper+lee&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=u8-ywPTzb5YC&dq=harper+lee&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Harper_Lee.html?hl=&id=u8-ywPTzb5YC"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Harper_Lee-sample-epub.acsm?id=u8-ywPTzb5YC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Harper_Lee-sample-pdf.acsm?id=u8-ywPTzb5YC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=u8-ywPTzb5YC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "An in-depth analysis of Harper Lee, his writings, and the historical time period in which they were written."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "-4ZPPgAACAAJ",
+      "etag": "qta44OhW4Go",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/-4ZPPgAACAAJ",
+      "volumeInfo": {
+        "title": "Norwegian wood",
+        "authors": [
+          "Murakami (Haruki)",
+          "Elbrich Fennema"
+        ],
+        "publishedDate": "2007",
+        "description": "Een jonge student in Tokio wordt heen en weer geslingerd tussen verdriet om een gestorven vriend en een mogelijke nieuwe liefde.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "904500657X"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9789045006574"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 317,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=-4ZPPgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=-4ZPPgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "nl",
+        "previewLink": "http://books.google.com/books?id=-4ZPPgAACAAJ&dq=norwegian+wood&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=-4ZPPgAACAAJ&dq=norwegian+wood&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Norwegian_wood.html?hl=&id=-4ZPPgAACAAJ"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=-4ZPPgAACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Een jonge student in Tokio wordt heen en weer geslingerd tussen verdriet om een gestorven vriend en een mogelijke nieuwe liefde."
+      }
+    }
+  ],
+  "collections": [
+    {
+      "kind": "books#volume",
+      "id": "yrVEBsjWiBcC",
+      "etag": "Wb9FCmV2nlw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/yrVEBsjWiBcC",
+      "volumeInfo": {
+        "title": "Awakenings",
+        "authors": [
+          "Oliver Sacks"
+        ],
+        "publisher": "Vintage",
+        "publishedDate": "1999-10-05",
+        "description": "Awakenings--which inspired the major motion picture--is the remarkable story of a group of patients who contracted sleeping-sickness during the great epidemic just after World War I. Frozen for decades in a trance-like state, these men and women were given up as hopeless until 1969, when Dr. Oliver Sacks gave them the then-new drug L-DOPA, which had an astonishing, explosive, \"awakening\" effect. Dr. Sacks recounts the moving case histories of his patients, their lives, and the extraordinary transformations which went with their reintroduction to a changed world.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0375704051"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780375704055"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 466,
+        "printType": "BOOK",
+        "categories": [
+          "Psychology"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 8,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=yrVEBsjWiBcC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=yrVEBsjWiBcC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=yrVEBsjWiBcC&q=oliver+sacks&dq=oliver+sacks&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=yrVEBsjWiBcC&dq=oliver+sacks&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Awakenings.html?hl=&id=yrVEBsjWiBcC"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=yrVEBsjWiBcC&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Awakenings—which inspired the major motion picture starring Robert DeNiro and Robin Williams—is the remarkable story of a group of patients who contracted sleeping-sickness during the great epidemic just after World War I. Frozen for ..."
+      },
+      "readingStatus": 0
+    },
+    {
+      "kind": "books#volume",
+      "id": "MLJoAAAAMAAJ",
+      "etag": "VPyG90lnbN8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/MLJoAAAAMAAJ",
+      "volumeInfo": {
+        "title": "Oaxaca Journal",
+        "authors": [
+          "Oliver Sacks"
+        ],
+        "publisher": "National Geographic Society",
+        "publishedDate": "2002",
+        "description": "This new series of literary travel memoirs presents the world's most prominent novelists, nonfiction writers, poets, and playwrights, many writing about travel for the first time.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UTEXAS:059173009911883"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 190,
+        "printType": "BOOK",
+        "categories": [
+          "Ferns"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 10,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.3.4.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=MLJoAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=MLJoAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=MLJoAAAAMAAJ&q=oliver+sacks&dq=oliver+sacks&hl=&cd=14&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=MLJoAAAAMAAJ&dq=oliver+sacks&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Oaxaca_Journal.html?hl=&id=MLJoAAAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=MLJoAAAAMAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This new series of literary travel memoirs presents the world&#39;s most prominent novelists, nonfiction writers, poets, and playwrights, many writing about travel for the first time."
+      },
+      "readingStatus": 0
+    },
+    {
+      "kind": "books#volume",
+      "id": "vcWNEAAAQBAJ",
+      "etag": "T5/ZnQohBAE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/vcWNEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Gratitude",
+        "authors": [
+          "Oliver Sacks"
+        ],
+        "publisher": "National Geographic Books",
+        "publishedDate": "2015-11-24",
+        "description": "“My predominant feeling is one of gratitude. I have loved and been loved. I have been given much and I have given something in return. Above all, I have been a sentient being, a thinking animal, on this beautiful planet, and that in itself has been an enormous privilege and adventure.” —Oliver Sacks No writer has succeeded in capturing the medical and human drama of illness as honestly and as eloquently as Oliver Sacks. During the last few months of his life, he wrote a set of essays in which he movingly explored his feelings about completing a life and coming to terms with his own death. “It is the fate of every human being,” Sacks writes, “to be a unique individual, to find his own path, to live his own life, to die his own death.” Together, these four essays form an ode to the uniqueness of each human being and to gratitude for the gift of life. “Oliver Sacks was like no other clinician, or writer. He was drawn to the homes of the sick, the institutions of the most frail and disabled, the company of the unusual and the ‘abnormal.’ He wanted to see humanity in its many variants and to do so in his own, almost anachronistic way—face to face, over time, away from our burgeoning apparatus of computers and algorithms. And, through his writing, he showed us what he saw.” —Atul Gawande, author of Being Mortal",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780451492937"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0451492935"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 0,
+        "printType": "BOOK",
+        "categories": [
+          "Biography & Autobiography"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 679,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=vcWNEAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=vcWNEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=vcWNEAAAQBAJ&dq=oliver+sacks&hl=&cd=13&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=vcWNEAAAQBAJ&dq=oliver+sacks&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Gratitude.html?hl=&id=vcWNEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=vcWNEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "During the last few months of his life, he wrote a set of essays in which he movingly explored his feelings about completing a life and coming to terms with his own death. “It is the fate of every human being,” Sacks writes, “to be a ..."
+      },
+      "readingStatus": 0
+    }
+  ]
+}

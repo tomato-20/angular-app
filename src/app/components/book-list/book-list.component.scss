@@ -1,0 +1,48 @@
+@import '/src/assets/scss/styles.scss';
+
+
+.book-item {
+  padding: 10px;
+  border: solid 1px black;
+
+  img {
+    width: 100%;
+    height: autos;
+  }
+
+  .book-item-body {
+    .book-title {
+      margin: 0;
+      font-size: 1.3em;
+      font-weight: 600;
+      padding: 10px 0;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+
+      :hover {
+        overflow: visible;
+      }
+    }
+
+    .wish-btn-container {
+      display: flex;
+      margin-top: 0.8em;
+
+      button.wish-btn {
+        border: none;
+        padding: 0.5em;
+        width: 100%;
+        background-color: $torquoise-dark-l;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      button.wish-btn:disabled {
+        cursor: not-allowed;
+        opacity: 0.6;
+      }
+    }
+  }
+}

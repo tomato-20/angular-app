@@ -1,0 +1,6 @@
+<div class="searchbox-wrapper">
+    <form (submit)="onSubmit()">
+        <input type="text" name="search-box" #searchBox id="search-box" [(ngModel)]="searchKey">
+        <button type="submit"> search</button>
+    </form>
+</div>

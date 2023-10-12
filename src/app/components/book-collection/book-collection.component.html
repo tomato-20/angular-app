@@ -1,0 +1,20 @@
+<div class="container">
+  <h2>My collections</h2>
+  <div class="reading-status-tab">
+    <ul class="nav-tabs">
+      <li [ngClass]="{'active' : selectedCategory === 999 ? true: false}" (click)="onCategorySelect(999)">All</li>
+      <li [ngClass]="{'active' : selectedCategory === i ? true: false}"
+        *ngFor="let category  of categories; let i = index" (click)="onCategorySelect(i)">{{category}}</li>
+    </ul>
+  </div>
+  <ng-container *ngIf="((collection$ | async)!) as collection" >
+    <div class="book-list-wrapper">
+      <div class="book-list" *ngIf="collection.length" >
+        <div class="book-item" *ngFor="let book of collection" data-test-id="book-item">
+          <app-collection-item [book]="book" (remove)="onRemove($event)"
+            (changeBookStatus)="onBookStateChange($event)"></app-collection-item>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</div>

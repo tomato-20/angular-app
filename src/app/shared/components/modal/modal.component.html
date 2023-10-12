@@ -1,0 +1,8 @@
+<div id="myModal" [ngClass]="{'modal': true, 'display-none' : !isOpen , 'display-block': isOpen}">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span (click)="onModalClose.emit()" class="close">&times;</span>
+        <ng-content>
+        </ng-content>
+    </div>
+</div>

@@ -1,0 +1,85 @@
+@import "/src/assets/scss/styles.scss";
+
+button {
+  border: none;
+  padding: 0.5em;
+  width: 100%;
+  background-color: $torquoise-dark-l;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  // justify-content: space-between;
+
+  .book-item {
+    margin: 0px 10px 10px 0px;
+    width: 25%;
+    padding: 10px;
+    border: solid 1px black;
+  }
+
+  p.book-title {
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
+
+.reading-status-tab {
+
+  margin-bottom : 1em;
+
+  ul{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+  }
+
+  .nav-tabs {
+    display: flex;
+    background-color: $torquoise-dark-l;
+    height: 70px;
+    color: white;
+  
+    li {
+      cursor: pointer;
+      margin-right: 1em;
+      padding: 25px 15px 0 15px;
+      
+      &.active {
+        background-color: $torquoise-light-s;
+        color: black;
+      }
+    }
+  }
+
+
+}
+
+@media screen and (min-width: 768px) {
+  .book-item {
+    width: 18%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .book-item {
+    //  min-width: 15%;
+    max-width: 13%;
+  }
+}

@@ -1,0 +1,46 @@
+@import "/src/assets/scss/styles.scss";
+
+div.pagination-wrapper {
+  margin: 1.5em 0px ;
+  display: flex;
+  justify-content: space-between;
+
+  button {
+    border: none;
+    padding: 1em;
+    transition: background-color 0.3s;
+
+    &:disabled {
+      opacity: 70%;
+      cursor: not-allowed;
+    }
+
+&.end-btn {
+      background-color: $blue-dark-m;
+      color: white;
+
+      &:hover:not(:disabled) {
+        background-color: $blue-light-l;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .page-no-wrapper {
+    button {
+      margin: 0 5px;
+      color: black;
+
+      &.active {
+        background-color: $blue-dark-m;
+        color: white;
+      }
+
+      &:hover:not(.active) {
+        background-color: #61a5c2;
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}
