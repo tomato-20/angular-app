@@ -14,7 +14,7 @@ export const CollectionItemActions = createActionGroup({
     ' Load All Items Success' : props<{items: CollectionItem[]}>(),
     ' Failure' : props<{error: string}>(),
     ' Add Item' : props<{book: Book}>(),
-    ' Add Item Success' : props<{book: Book}>(),
+    ' Add Item Success' : props<{book: CollectionItem}>(),
     ' Remove Item' : props<{bookId:string}>(),
     ' Remove Item Success' : props<{bookId: string}>(),
     ' Change Reading Status' : props<{item : CollectionItem}>(),

@@ -1,0 +1,56 @@
+<section id="add-book">
+    <h2>Add Book</h2>
+    <form [formGroup]="addBookForm" (ngSubmit)="onSubmitForm()">
+        <!-- value : {{addBookForm.value | json }} -->
+
+        <br />
+
+        <h3>Title</h3>
+        <mat-form-field>
+            <mat-label> Title </mat-label>
+            <input matInput formControlName="title">
+        </mat-form-field>
+
+        <h3>Description</h3>
+        <mat-form-field>
+            <mat-label> Description </mat-label>
+            <textarea matInput formControlName="description" cols="35" rows="10"></textarea>
+        </mat-form-field>
+
+        <ng-container formArrayName="authors">
+            <h3>authors</h3>
+            <div *ngFor="let author of authors.controls; let i=index">
+                <mat-form-field>
+                    <input type="text" matInput [formControlName]="i">
+                </mat-form-field>
+                <button mat-raised-button color="warn" (click)="deleteAuthor(i)">Delete</button>
+            </div>
+            <button mat-raised-button color="primary" (click)="addAuthor()">Add</button>
+        </ng-container>
+
+        <ng-container formGroupName="imageLinks">
+            <h3>Image Links</h3>
+            <mat-form-field>
+                <mat-label> Small Thumbnail</mat-label>
+                <input matInput formControlName="smallThumbnail">
+
+                <mat-error *ngIf=""></mat-error>
+            </mat-form-field>
+            <br>
+            <mat-form-field>
+                <mat-label> Thumbnail</mat-label>
+                <input matInput formControlName="thumbnail">
+            </mat-form-field>
+        </ng-container>
+
+        <br>
+
+        <button class="submit-btn" mat-raised-button [disabled]="addBookForm.invalid" color="primary" type="submit">Save</button>
+        <button mat-raised-button color="warn" (click)="resetForm()">Clear</button>
+    </form>
+
+    <ng-container *ngIf="(formState$ | async) as formState">
+        <div *ngIf="formState.success">Book Add Successfully!</div>
+        <div *ngIf="formState.error">Cannot Add Book. Please Try again</div>
+    </ng-container>
+</section>

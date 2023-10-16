@@ -8,14 +8,13 @@ import { CollectionApiService } from '../service/book-collection-api.service';
 
 @Injectable({ providedIn: 'root' })
 export class CollectionEffects {
-  readonly loadBookCollectios = createEffect(() => {
+  readonly loadBookCollectios$ = createEffect(() => {
     return this.actions$.pipe(
       ofType(CollectionItemActions.loadAllItems),
       mergeMap(() => {
         return this.collectionApiService.getCollection().pipe(
           map((items) => CollectionItemActions.loadAllItemsSuccess({ items })),
-          catchError((err) => {
-            let error = JSON.stringify(err);
+          catchError((error) => {
             return of(CollectionItemActions.failure({ error }));
           })
         );
@@ -23,15 +22,17 @@ export class CollectionEffects {
     );
   });
 
-  readonly addBookToCollection = createEffect(() => {
+  readonly addBookToCollection$ = createEffect(() => {
     return this.actions$.pipe(
       ofType(CollectionItemActions.addItem),
       exhaustMap(({ book }) => {
         return this.collectionApiService.addToCollection(book).pipe(
-          map((item) => CollectionItemActions.addItemSuccess({ book : item })),
-          catchError((err) => {
-            console.log(err)
-            let error = JSON.stringify(err);
+          map((item) => {
+            console.log(item);
+            console.log(item.readingStatus);
+            return CollectionItemActions.addItemSuccess({ book: item });
+          }),
+          catchError((error) => {
             return of(CollectionItemActions.failure({ error }));
           })
         );
@@ -39,16 +40,15 @@ export class CollectionEffects {
     );
   });
 
-  readonly removeBookFromCollection = createEffect(() => {
+  readonly removeBookFromCollection$ = createEffect(() => {
     return this.actions$.pipe(
       ofType(CollectionItemActions.removeItem),
       exhaustMap(({ bookId }) => {
-       console.log('remove item called') 
+        console.log('remove item called');
         return this.collectionApiService.removeFromCollection(bookId).pipe(
           map((item) => CollectionItemActions.removeItemSuccess({ bookId })),
-          catchError((err) => {
-            let error = JSON.stringify(err);
-            return of(CollectionItemActions.failure({ error}));
+          catchError((error) => {
+            return of(CollectionItemActions.failure({ error }));
           })
         );
       })
@@ -57,7 +57,6 @@ export class CollectionEffects {
 
   constructor(
     private actions$: Actions,
-    private collectionApiService: CollectionApiService,
-    private store: Store<AppState>
+    private collectionApiService: CollectionApiService // private store: Store<AppState>
   ) {}
 }

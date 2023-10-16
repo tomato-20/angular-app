@@ -5,13 +5,16 @@ import { BookReadingStatusEnum, CollectionItem } from '../model/CollectonItem';
 
 export const collectionItemInitialState: BookCollectionState = {
   items: [],
-  loading: true,
+  loading: false,
   error: '',
 };
 
 export const collectionItemReducer = createReducer(
   collectionItemInitialState,
-  on(CollectionItemActions.loadAllItems, (state, _) => state),
+  on(CollectionItemActions.loadAllItems, (state, _) => ({
+    ...state,
+    loading: true,
+  })),
   on(CollectionItemActions.loadAllItemsSuccess, (state, { items }) => {
     return {
       ...state,
@@ -42,7 +45,7 @@ export const collectionItemReducer = createReducer(
   on(
     CollectionItemActions.changeReadingStatusSuccess,
     (state, { bookId, readingStatus }) => {
-      console.log(bookId,readingStatus)
+      console.log(bookId, readingStatus);
       let newUpdatedList = [
         ...state.items.map((item) => {
           if (item.id === bookId) {

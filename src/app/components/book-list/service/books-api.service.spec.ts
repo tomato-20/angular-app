@@ -46,6 +46,22 @@ describe('Book Api Service', () => {
     req.flush(mockBookArray);
   });
 
+  it('should call getBooks method and return empty array', (done: DoneFn) => {
+    bookApiService.getBooks().subscribe({
+      next: (books) => {
+        expect(books).toEqual([]);
+        done();
+      },
+    });
+
+    const req = httpControler.expectOne({
+      method: 'GET',
+      url: `${url}/books`,
+    });
+
+    req.flush(null);
+  });
+
   it('should call getBookById method and return a book', () => {
     const id: string = 'yrVEBsjWiBcC';
 
@@ -61,24 +77,25 @@ describe('Book Api Service', () => {
     req.flush(mockBook);
   });
 
-  it('should call getBookById method and throw error response for non existant book', ()=> {
+  it('should call getBookById method and throw error response for non existant book', () => {
     const id: string = 'djkjhdhjj';
 
     bookApiService.getBookById(id).subscribe({
-        next: ()=> fail('should have failed with 404 error'),
-        error: (error: HttpErrorResponse) => {
-            expect(error.status).toEqual(404)
-            expect(error.message).toContain('Not Found')
-        }
-    })
+      next: () => fail('should have failed with 404 error'),
+      error: (error: HttpErrorResponse) => {
+        expect(error.status).toEqual(404);
+        expect(error.message).toContain('Not Found');
+      },
+    });
 
     const req = httpControler.expectOne({
-        method: 'GET',
-        url: `${url}/books/${id}`
-    })
+      method: 'GET',
+      url: `${url}/books/${id}`,
+    });
 
     req.flush('Not Found', {
-        status: 404, statusText: 'Not Found'
-    })
-  })
+      status: 404,
+      statusText: 'Not Found',
+    });
+  });
 });
