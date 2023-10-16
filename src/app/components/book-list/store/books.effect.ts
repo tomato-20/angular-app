@@ -1,7 +1,7 @@
 import { Injectable, inject } from '@angular/core';
 import { createEffect, Actions, ofType } from '@ngrx/effects';
 import { BooksApiService } from '../service/books-api.service';
-import { BooksActions, BooksApiActions} from './books.action';
+import { BooksApiActions} from './books.action';
 import { catchError, exhaustMap, map, merge, mergeMap, of } from 'rxjs';
 import { Book } from '../model/books.model';
 
@@ -57,22 +57,7 @@ export class BookEffects {
     );
   });
 
-  readonly addBook$ = createEffect(() => {
-    return this.actions$.pipe(
-      ofType(BooksActions.addBook),
-      exhaustMap(({ book }) => {
-        return this.booksApiService.addBook(book).pipe(
-          map((item) => {
-
-            return BooksActions.success();
-          }),
-          catchError((error) => {
-            return of(BooksActions.failure({ error }));
-          })
-        );
-      })
-    );
-  }); 
+  
 
   constructor(
     private readonly actions$: Actions,

@@ -6,9 +6,10 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
+import { BookListModule } from '../book-list/book-list.module';
 
 @NgModule({
   declarations: [BookAdminComponent, AddComponent],
-  imports: [CommonModule, ReactiveFormsModule, MatInputModule, MatButtonModule],
+  imports: [CommonModule, ReactiveFormsModule,BookListModule, MatInputModule, MatButtonModule],
 })
 export class BookAdminModule {}

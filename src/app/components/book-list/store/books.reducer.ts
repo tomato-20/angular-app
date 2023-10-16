@@ -1,7 +1,7 @@
 import { createReducer, on } from '@ngrx/store';
-import { BooksActions, BooksApiActions } from './books.action';
+import {  BooksApiActions } from './books.action';
 import { BookListState } from '../state/book.state';
-import { FormState } from '../state/form.state';
+import { FormState } from '../../book-admin/state/form.state';
 
 // export const initialCollectionState: ReadonlyArray<string> = [];
 
@@ -38,14 +38,3 @@ export const booksreducer = createReducer(
 
 );
 
-export const initialFormState: FormState = {
-  loading: false,
-  success: false,
-  error: ''
-}
-export const booksActionReducer = createReducer(
-  initialFormState,
-  on(BooksActions.addBook,(state,_) => ({...state, loading: true, success: false})),
-  on(BooksActions.success,(state,_) => ({...state, loading: false, success: true})),
-  on(BooksActions.failure,(state,_) => ({...state, loading: false, success: false}))
-)

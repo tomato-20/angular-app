@@ -9,11 +9,10 @@ import {
 import { Store } from '@ngrx/store';
 import { Observable, from, of } from 'rxjs';
 import { AddBookModel } from 'src/app/components/book-list/model/add-book.model';
-import { Book, BookVolumeInfo } from 'src/app/components/book-list/model/books.model';
-import { FormState } from 'src/app/components/book-list/state/form.state';
-import { BooksActions, BooksApiActions } from 'src/app/components/book-list/store/books.action';
-import { selectBookFormState } from 'src/app/components/book-list/store/books.selector';
 import { AppState } from 'src/app/store/app.state';
+import { FormState } from '../../state/form.state';
+import { BooksAdminActions } from '../../store/book-admin.action';
+import { selectBookFormState } from '../../store/book-admin.selectors';
 
 @Component({
   selector: 'app-book-add',
@@ -23,30 +22,20 @@ import { AppState } from 'src/app/store/app.state';
 export class AddComponent {
   addBookForm: FormGroup = new FormGroup({});
 
-  formState$ : Observable<FormState> = of({
+  formState$: Observable<FormState> = of({
     loading: false,
     success: false,
-    error: ''
+    error: '',
   });
 
   constructor(private fb: FormBuilder, private store: Store<AppState>) {}
 
   ngOnInit() {
+    const urlRegex =
+      /^(?:http(s)?:\/\/)?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$/;
     const imageLinks = this.fb.group({
-      smallThumbnail: [
-        '',
-        Validators.required,
-        // Validators.pattern(
-        //   '^https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)$'
-        // ),
-      ],
-      thumbnail: [
-        '',
-        Validators.required,
-        // Validators.pattern(
-        //   '^(http(s)://.)[-a-zA-Z0-9@:%._+~#=]{2,256}.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*)$'
-        // ),
-      ],
+      smallThumbnail: ['', [Validators.required, Validators.pattern(urlRegex)]],
+      thumbnail: ['', [Validators.required, Validators.pattern(urlRegex)]],
     });
 
     this.addBookForm = this.fb.group({
@@ -71,6 +60,13 @@ export class AddComponent {
     return this.addBookForm.get('authors') as FormArray;
   }
 
+  get smallThumbnail() {
+    return this.addBookForm.get('imageLinks.smallThumbnail')
+  }
+
+  get thumbnail() {
+    return this.addBookForm.get('imageLinks.thumbnail')
+  }
   addAuthor() {
     this.authors.push(this.fb.control(''));
   }
@@ -80,20 +76,19 @@ export class AddComponent {
   }
 
   async onSubmitForm() {
-
-    this.formState$ = this.store.select(selectBookFormState)
+    this.formState$ = this.store.select(selectBookFormState);
 
     if (this.addBookForm.valid) {
-      let formValue: AddBookModel= this.addBookForm.value;
-      formValue.authors = formValue.authors?.filter(x=>!!x)
+      let formValue: AddBookModel = this.addBookForm.value;
+      formValue.authors = formValue.authors?.filter((x) => !!x);
       console.log(formValue);
-      this.store.dispatch(BooksActions.addBook({book: formValue}))
-      this.resetForm()
+      this.store.dispatch(BooksAdminActions.addBook({ book: formValue }));
+      this.resetForm();
       return;
     }
   }
 
   resetForm() {
-    this.addBookForm.reset()
+    this.addBookForm.reset();
   }
 }

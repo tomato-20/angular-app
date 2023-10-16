@@ -34,18 +34,23 @@
                 <mat-label> Small Thumbnail</mat-label>
                 <input matInput formControlName="smallThumbnail">
 
-                <mat-error *ngIf=""></mat-error>
+                <mat-error *ngIf="!smallThumbnail?.valid && smallThumbnail?.touched">Small Thumbnal should be valid
+                    url</mat-error>
             </mat-form-field>
             <br>
             <mat-form-field>
                 <mat-label> Thumbnail</mat-label>
                 <input matInput formControlName="thumbnail">
+
+                <mat-error *ngIf="!thumbnail?.valid && thumbnail?.touched"> Thumbnal should be valid
+                    url</mat-error>
             </mat-form-field>
         </ng-container>
 
         <br>
 
-        <button class="submit-btn" mat-raised-button [disabled]="addBookForm.invalid" color="primary" type="submit">Save</button>
+        <button class="submit-btn" mat-raised-button [disabled]="addBookForm.invalid" color="primary"
+            type="submit">Save</button>
         <button mat-raised-button color="warn" (click)="resetForm()">Clear</button>
     </form>
 

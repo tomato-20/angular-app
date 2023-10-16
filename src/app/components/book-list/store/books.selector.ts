@@ -1,5 +1,4 @@
-import { createFeatureSelector, createSelector } from '@ngrx/store';
-import { Book } from '../model/books.model';
+import {  createSelector } from '@ngrx/store';
 import { AppState } from 'src/app/store/app.state';
 
 // export const selectBooks = createFeatureSelector<ReadonlyArray<Book>>('books');
@@ -16,7 +15,7 @@ import { AppState } from 'src/app/store/app.state';
 //   }
 // );
 
-export const selectBookFormState = (state: AppState) => state.bookFormState
+
 
 export const selectBookFeature = (state: AppState) => state.books;
 
