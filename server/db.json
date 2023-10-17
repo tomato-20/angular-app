@@ -2073,7 +2073,7 @@
       "searchInfo": {
         "textSnippet": "During the last few months of his life, he wrote a set of essays in which he movingly explored his feelings about completing a life and coming to terms with his own death. “It is the fate of every human being,” Sacks writes, “to be a ..."
       },
-      "readingStatus": 1
+      "readingStatus": 0
     },
     {
       "kind": "books#volume",
@@ -2142,7 +2142,7 @@
       "searchInfo": {
         "textSnippet": "In this extraordinary book, Dr Oliver Sacks recounts the stories of patients struggling to adapt to often bizarre worlds of neurological disorder."
       },
-      "readingStatus": 0
+      "readingStatus": 1
     },
     {
       "volumeInfo": {

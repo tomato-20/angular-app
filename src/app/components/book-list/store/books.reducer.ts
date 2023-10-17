@@ -1,7 +1,6 @@
 import { createReducer, on } from '@ngrx/store';
 import {  BooksApiActions } from './books.action';
 import { BookListState } from '../state/book.state';
-import { FormState } from '../../book-admin/state/form.state';
 
 // export const initialCollectionState: ReadonlyArray<string> = [];
 
