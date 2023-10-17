@@ -43,22 +43,21 @@ import { Book } from '../model/books.model';
 
 @Injectable()
 export class BookEffects {
-  readonly loadBooks = createEffect(() => {
+  readonly loadBooks$ = createEffect(() => {
     return this.actions$.pipe(
       ofType(BooksApiActions.loadBooksList),
       exhaustMap(() => {
         return this.booksApiService.getBooks().pipe(
           map((books) => BooksApiActions.loadBooksListSuccess({ books })),
           catchError((err) => {
-            let error = JSON.stringify(err);
-            return of(BooksApiActions.loadBookListError({ error }));
+            return of(BooksApiActions.loadBookListError({ error : err }));
           })
         );
       })
     );
   });
 
- 
+  
 
   constructor(
     private readonly actions$: Actions,

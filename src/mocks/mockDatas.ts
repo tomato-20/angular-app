@@ -472,55 +472,52 @@ export const mockBookArray = [
 
 export const mockBook = {
   kind: 'books#volume',
-  id: 'yrVEBsjWiBcC',
-  etag: 'Wb9FCmV2nlw',
-  selfLink: 'https://www.googleapis.com/books/v1/volumes/yrVEBsjWiBcC',
+  id: 'Jp8c0AEACAAJ',
+  etag: '4EOLgZlkO90',
+  selfLink: 'https://www.googleapis.com/books/v1/volumes/Jp8c0AEACAAJ',
   volumeInfo: {
-    title: 'Awakenings',
-    authors: ['Oliver Sacks'],
-    publisher: 'Vintage',
-    publishedDate: '1999-10-05',
+    title: 'The Tempest',
+    publisher: 'Maple Press Pvt Limited',
+    publishedDate: '1910-01-08',
     description:
-      'Awakenings--which inspired the major motion picture--is the remarkable story of a group of patients who contracted sleeping-sickness during the great epidemic just after World War I. Frozen for decades in a trance-like state, these men and women were given up as hopeless until 1969, when Dr. Oliver Sacks gave them the then-new drug L-DOPA, which had an astonishing, explosive, "awakening" effect. Dr. Sacks recounts the moving case histories of his patients, their lives, and the extraordinary transformations which went with their reintroduction to a changed world.',
+      "The Tempest is the fourth, final, and the finest of Shakespeare's great late romances. It is classified as a romantic comedy with a mild element of tragedy in its main plot. The play is set on a remote island, now inhabited by Prospero and his daughter Miranda. He is the rightful Duke of Milan, his throne being usurped by his villainous brother Antonio. When Antonio and his friend King Alonso of Naples, Alonso's son Ferdinand, and others are travelling by a ship, their ship gets wrecked by the storm conjured by Prospero, who has magical powers. With the help of his devoted attendant Ariel, Prospero accomplishes his task to restore Miranda her rightful place. Antonio, his accomplice King Alonso of Naples and his son Ferdinand reach the island after the shipwreck. Love blooms between Miranda and Ferdinand, and Prospero consents to their marriage. Finally, the truth about Antonio is revealed, and Prospero is restored his dukedom .He forgives his brother, and returns to Milan.",
     industryIdentifiers: [
       {
         type: 'ISBN_10',
-        identifier: '0375704051',
+        identifier: '9352231678',
       },
       {
         type: 'ISBN_13',
-        identifier: '9780375704055',
+        identifier: '9789352231676',
       },
     ],
     readingModes: {
       text: false,
       image: false,
     },
-    pageCount: 466,
+    pageCount: 0,
     printType: 'BOOK',
-    categories: ['Psychology'],
-    averageRating: 3.5,
-    ratingsCount: 8,
+    categories: ['Fiction'],
     maturityRating: 'NOT_MATURE',
     allowAnonLogging: false,
-    contentVersion: '0.2.2.0.preview.0',
+    contentVersion: 'preview-1.0.0',
     panelizationSummary: {
       containsEpubBubbles: false,
       containsImageBubbles: false,
     },
     imageLinks: {
       smallThumbnail:
-        'http://books.google.com/books/content?id=yrVEBsjWiBcC&printsec=frontcover&img=1&zoom=5&source=gbs_api',
+        'http://books.google.com/books/content?id=Jp8c0AEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
       thumbnail:
-        'http://books.google.com/books/content?id=yrVEBsjWiBcC&printsec=frontcover&img=1&zoom=1&source=gbs_api',
+        'http://books.google.com/books/content?id=Jp8c0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api',
     },
     language: 'en',
     previewLink:
-      'http://books.google.com/books?id=yrVEBsjWiBcC&q=oliver+sacks&dq=oliver+sacks&hl=&cd=1&source=gbs_api',
+      'http://books.google.com/books?id=Jp8c0AEACAAJ&dq=the%25tempest&hl=&cd=2&source=gbs_api',
     infoLink:
-      'http://books.google.com/books?id=yrVEBsjWiBcC&dq=oliver+sacks&hl=&source=gbs_api',
+      'http://books.google.com/books?id=Jp8c0AEACAAJ&dq=the%25tempest&hl=&source=gbs_api',
     canonicalVolumeLink:
-      'https://books.google.com/books/about/Awakenings.html?hl=&id=yrVEBsjWiBcC',
+      'https://books.google.com/books/about/The_Tempest.html?hl=&id=Jp8c0AEACAAJ',
   },
   saleInfo: {
     country: 'NP',
@@ -540,15 +537,15 @@ export const mockBook = {
       isAvailable: false,
     },
     webReaderLink:
-      'http://play.google.com/books/reader?id=yrVEBsjWiBcC&hl=&source=gbs_api',
+      'http://play.google.com/books/reader?id=Jp8c0AEACAAJ&hl=&source=gbs_api',
     accessViewStatus: 'NONE',
     quoteSharingAllowed: false,
   },
   searchInfo: {
     textSnippet:
-      'Awakenings—which inspired the major motion picture starring Robert DeNiro and Robin Williams—is the remarkable story of a group of patients who contracted sleeping-sickness during the great epidemic just after World War I. Frozen for ...',
+      'The Tempest is the fourth, final, and the finest of Shakespeare&#39;s great late romances. It is classified as a romantic comedy with a mild element of tragedy in its main plot.',
   },
-};
+}
 
 export const mockCollectionItemArray = [
   {

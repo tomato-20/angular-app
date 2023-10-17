@@ -13,9 +13,9 @@ import { CounterComponent } from './components/counter/counter.component';
 import { reducers } from 'src/app/store/reducers';
 import { effects } from 'src/app/store/effects';
 import { BookListModule } from './components/book-list/book-list.module';
-import { SimpleCounterComponent } from './components/counter/components/simple-counter/simple-counter.component';
-import { NgrxCounterComponent } from './components/counter/components/ngrx-counter/ngrx-counter.component';
 import { CounterModule } from './components/counter/counter.module';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { BookAdminModule } from './components/book-admin/book-admin.module';
 
 @NgModule({
   declarations: [
@@ -30,7 +30,9 @@ import { CounterModule } from './components/counter/counter.module';
     EffectsModule.forRoot([...effects]),
     HttpClientModule,
     BookListModule,
-    CounterModule
+    CounterModule,
+    BookAdminModule,
+    NoopAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent],

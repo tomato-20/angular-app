@@ -1,5 +1,4 @@
-import { createFeatureSelector, createSelector } from '@ngrx/store';
-import { Book } from '../model/books.model';
+import {  createSelector } from '@ngrx/store';
 import { AppState } from 'src/app/store/app.state';
 
 // export const selectBooks = createFeatureSelector<ReadonlyArray<Book>>('books');
@@ -16,40 +15,42 @@ import { AppState } from 'src/app/store/app.state';
 //   }
 // );
 
-export const selectBookFeature = (state: AppState) => state.books;
 
-export const selectBookIdsCollectionFeature = (state: AppState) =>
-  state.collection;
+
+export const selectBookFeature = (state: AppState) => state.books;
 
 export const selectBooks = createSelector(
   selectBookFeature,
   (books) => books.items
 );
 
-export const selectSearchedBooks = (key: string) =>
-  createSelector(selectBookFeature, (books) =>
-    books.items.filter((book) => {
-      const { title, authors } = book.volumeInfo;
-      return (
-        title.toLowerCase().includes(key.toLowerCase()) ||
-        (authors &&
-          authors.reduce((prevResult, author) => {
-            let hasValue = author.toLowerCase().includes(key);
-            return hasValue || prevResult;
-          }, false))
-      );
-    })
-  );
+// export const selectSearchedBooks = (key: string) =>
+//   createSelector(selectBookFeature, (books) =>
+//     books.items.filter((book) => {
+//       const { title, authors } = book.volumeInfo;
+//       return (
+//         title.toLowerCase().includes(key.toLowerCase()) ||
+//         (authors &&
+//           authors.reduce((prevResult, author) => {
+//             let hasValue = author.toLowerCase().includes(key);
+//             return hasValue || prevResult;
+//           }, false))
+//       );
+//     })
+//   );
 
-export const selectBookIdsCollection = createSelector(
-  selectBookIdsCollectionFeature,
-  (collection) => collection
-);
+// export const selectBookIdsCollectionFeature = (state: AppState) =>
+//   state.collection;
 
-export const selectBookCollection = createSelector(
-  selectBookFeature,
-  selectBookIdsCollectionFeature,
-  (books, collection) => {
-    return collection.map((id) => books.items.find((book) => book.id === id)!);
-  }
-);
+// export const selectBookIdsCollection = createSelector(
+//   selectBookIdsCollectionFeature,
+//   (collection) => collection
+// );
+
+// export const selectBookCollection = createSelector(
+//   selectBookFeature,
+//   selectBookIdsCollectionFeature,
+//   (books, collection) => {
+//     return collection.map((id) => books.items.find((book) => book.id === id)!);
+//   }
+// );

@@ -17,7 +17,7 @@ import { CollectionItem } from '../book-collection/model/CollectonItem';
 import { selectCollectionItems } from '../book-collection/store/collection.selector';
 import { PaginatePipe } from 'src/app/shared/pipes/paginate/paginate.pipe';
 import { PageType } from 'src/app/shared/components/pagination/page.type';
-import { BooksActions, BooksApiActions } from './store/books.action';
+import {  BooksApiActions } from './store/books.action';
 import { of } from 'rxjs';
 import { CollectionItemActions } from '../book-collection/store/collection.action';
 

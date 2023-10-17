@@ -5,7 +5,7 @@ import { count, filter } from 'rxjs/operators';
 import { Store, select } from '@ngrx/store';
 import { AppState } from 'src/app/store/app.state';
 // import { selectBooks } from './state/books.selector';
-import { selectBooks, selectSearchedBooks } from './store/books.selector';
+import { selectBooks } from './store/books.selector';
 import { CollectionItemActions } from '../book-collection/store/collection.action';
 import { BooksApiActions } from './store/books.action';
 import { selectCollectionItems } from '../book-collection/store/collection.selector';
