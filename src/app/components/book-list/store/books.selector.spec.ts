@@ -15,6 +15,7 @@ describe('BooksSelector', () => {
     books: initialState,
     collectionItemList: { items: [], loading: false, error: '' },
     collection: [],
+    bookFormState: {loading: false, success: false, error:''}
   };
 
   it('should select books state', () => {

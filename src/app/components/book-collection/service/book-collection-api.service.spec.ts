@@ -8,6 +8,7 @@ import { TestBed } from '@angular/core/testing';
 import { mockCollectionItem, mockCollectionItemArray } from 'src/mocks/mockDatas';
 import { HttpErrorResponse } from '@angular/common/http';
 import { CollectionApiService } from './book-collection-api.service';
+import { CollectionItem } from '../model/CollectonItem';
 
 
 describe('Book Collection Api Service', () => {
@@ -110,4 +111,24 @@ describe('Book Collection Api Service', () => {
 
     req.flush(mockCollectionItem.id);
   });
+
+  it('should call updateReadingStatus method and return updated item on success', () => {
+    let updatedStatus = 2;
+    let item = mockCollectionItem;
+    let modifiedItem : CollectionItem = {
+      ...item,
+      readingStatus: updatedStatus
+    }
+    collectionApiService.updateReadingStatus(item.id, updatedStatus).subscribe(book => {
+      expect(book.readingStatus).toEqual(updatedStatus)
+    })
+
+    const req = httpControler.expectOne({
+      method: 'PATCH',
+      url: `${url}/collections/${item.id}`
+    })
+
+    expect(req.request.headers.get('Content-Type')).toEqual('application/json')
+    req.flush(modifiedItem)
+  })
 });

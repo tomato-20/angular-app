@@ -136,7 +136,7 @@ describe('Collection Reducer', () => {
       readingStatus: 2,
     };
 
-    it('should update the state immutably after updatint reading status of selected item', () => {
+    it('should update the state immutably after updating reading status of selected item', () => {
       let expectedState = {
         ...initialState,
         items: [...mockCollectionItemArray.slice(1, 2), { ...afterUpdateItem }],

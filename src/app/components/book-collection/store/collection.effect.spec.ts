@@ -181,4 +181,61 @@ describe('BookCollectonEffects', () => {
       expect(effects.removeBookFromCollection$).toBeObservable(expected);
     });
   });
+
+  describe('change reading status', () => {
+    let item : CollectionItem = mockCollectionItem;
+    let modifiedItem : CollectionItem = {...item, readingStatus: 1}
+    const error = 'error'
+
+
+    it('should return changeReadingStatusSuccess with result on success', () => {
+      // ARRANGE : actions : 1. action that causes effect 2. action as result of effect
+      let action : Action = CollectionItemActions.changeReadingStatus({item: modifiedItem})
+      let completion: Action  = CollectionItemActions.changeReadingStatusSuccess({bookId: modifiedItem.id, readingStatus: modifiedItem.readingStatus})
+      
+      //  action
+      actions$ = hot('-a', {
+        a: action
+      })      
+
+      //  api response
+      const response = cold('-b|', {
+        b: modifiedItem
+      })
+      //  expected result id observarable(success or failure)
+      const expected = cold('--c', {
+        c: completion
+      })
+
+      // ACT
+      spyOn(collectionApiService, 'updateReadingStatus').and.returnValue(response)
+  
+      //  ASSERT
+      expect(effects.changeReadingStatus$).toBeObservable(expected)
+    })
+
+    it('should return failure with error on error', () => {
+      // ARRANGE : actions : 1. action that causes effect 2. action as result of effect
+      let action : Action = CollectionItemActions.changeReadingStatus({item: modifiedItem})
+      let completion: Action  = CollectionItemActions.failure({error})
+      
+      //  action
+      actions$ = hot('-a', {
+        a: action
+      })      
+
+      //  api response
+      const response = cold('-#|', {}, error)
+      //  expected result id observarable(success or failure)
+      const expected = cold('--c', {
+        c: completion
+      })
+
+      // ACT
+      spyOn(collectionApiService, 'updateReadingStatus').and.returnValue(response)
+  
+      //  ASSERT
+      expect(effects.changeReadingStatus$).toBeObservable(expected)
+    })
+  })
 });

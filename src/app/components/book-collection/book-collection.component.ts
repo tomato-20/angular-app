@@ -40,9 +40,8 @@ export class BookCollectionComponent {
   onBookStateChange(book: CollectionItem) {
     console.log(book)
     this.store.dispatch(
-      CollectionItemActions.changeReadingStatusSuccess({
-        bookId: book.id,
-        readingStatus: book.readingStatus,
+      CollectionItemActions.changeReadingStatus({
+        item: book
       })
     );
   }

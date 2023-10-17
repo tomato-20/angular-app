@@ -152,9 +152,8 @@ describe('Book Collection Component', () => {
       let modifiedItem = { ...selectedItem, readingStatus: 1 };
       component.onBookStateChange(modifiedItem);
       expect(mockStore.dispatch).toHaveBeenCalledWith(
-        CollectionItemActions.changeReadingStatusSuccess({
-          bookId: modifiedItem.id,
-          readingStatus: modifiedItem.readingStatus,
+        CollectionItemActions.changeReadingStatus({
+          item: modifiedItem
         })
       );
       // expect(mockStore.dispatch).toHaveBeenCalledOnceWith(
