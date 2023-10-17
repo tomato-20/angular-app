@@ -7,6 +7,8 @@ import { TestBed } from '@angular/core/testing';
 import { mockBook, mockBookArray } from 'src/mocks/mockDatas';
 import { BooksApiService } from './books-api.service';
 import { HttpErrorResponse } from '@angular/common/http';
+import { AddBookModel } from '../model/add-book.model';
+import { Book } from '../model/books.model';
 
 describe('Book Api Service', () => {
   let url = 'http://localhost:3000';
@@ -97,5 +99,36 @@ describe('Book Api Service', () => {
       status: 404,
       statusText: 'Not Found',
     });
+  });
+
+  it('should call addBook method and return a book', () => {
+    let newItem: AddBookModel = {
+      title: 'new book',
+      description: 'its a newly added book',
+      authors: ['an author'],
+      imageLinks: {
+        smallThumbnail:
+          'https://just-a-thumbnail.com/files/4567/1/xowertrgj.jpg',
+        thumbnail: 'https://just-a-thumbnail.com/files/4567/2/xowertrgj.jpg',
+      },
+    };
+    let expected : Book = {
+      volumeInfo: {
+        ...newItem
+      },
+      id: 'xFYetgIOw'
+    }
+
+    bookApiService.addBook(newItem).subscribe((book) => {
+      expect(book).toEqual(expected);
+    });
+
+    const req = httpControler.expectOne({
+      method: 'POST',
+      url: `${url}/books`,
+    });
+
+    expect(req.request.headers.get('Content-Type')).toEqual('application/json');
+    req.flush(expected);
   });
 });

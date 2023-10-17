@@ -11,31 +11,47 @@ export class CollectionApiService {
   constructor(private http: HttpClient) {}
 
   getCollection(): Observable<CollectionItem[]> {
-    return this.http.get<CollectionItem[]>(this.URL)
+    return this.http.get<CollectionItem[]>(this.URL);
   }
 
-  addToCollection(book : Book) {
-    let payload : CollectionItem = {
+  addToCollection(book: Book) {
+    let payload: CollectionItem = {
       ...book,
-      readingStatus: BookReadingStatusEnum.ToRead   
-    }
-    return this.http.post<CollectionItem>(this.URL,payload, this.getHttpOptions())
+      readingStatus: BookReadingStatusEnum.ToRead,
+    };
+    return this.http.post<CollectionItem>(
+      this.URL,
+      payload,
+      this.getHttpOptions()
+    );
   }
 
   removeFromCollection(bookId: string) {
-    return this.http.delete<Book>(`${this.URL}/${bookId}`)
+    return this.http.delete<Book>(`${this.URL}/${bookId}`);
   }
 
-  getCollectionItemById(id: string) : Observable<Book> {
-    return this.http.get<Book> (`${this.URL}/${id}`)
+  getCollectionItemById(id: string): Observable<Book> {
+    return this.http.get<Book>(`${this.URL}/${id}`);
   }
 
+  updateReadingStatus(
+    id: string,
+    readingStatus: BookReadingStatusEnum
+  ): Observable<CollectionItem> {
+    return this.http.patch<CollectionItem>(
+      `${this.URL}/${id}`,
+      {
+        readingStatus: readingStatus,
+      },
+      this.getHttpOptions()
+    );
+  }
 
   private getHttpOptions() {
     return {
-      headers : new HttpHeaders({
-        'Content-Type' : 'application/json'
-      })
-    }
+      headers: new HttpHeaders({
+        'Content-Type': 'application/json',
+      }),
+    };
   }
 }

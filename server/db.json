@@ -2001,177 +2001,25 @@
   "collections": [
     {
       "kind": "books#volume",
-      "id": "yrVEBsjWiBcC",
-      "etag": "Wb9FCmV2nlw",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/yrVEBsjWiBcC",
+      "id": "vcWNEAAAQBAJ",
+      "etag": "T5/ZnQohBAE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/vcWNEAAAQBAJ",
       "volumeInfo": {
-        "title": "Awakenings",
+        "title": "Gratitude",
         "authors": [
           "Oliver Sacks"
         ],
-        "publisher": "Vintage",
-        "publishedDate": "1999-10-05",
-        "description": "Awakenings--which inspired the major motion picture--is the remarkable story of a group of patients who contracted sleeping-sickness during the great epidemic just after World War I. Frozen for decades in a trance-like state, these men and women were given up as hopeless until 1969, when Dr. Oliver Sacks gave them the then-new drug L-DOPA, which had an astonishing, explosive, \"awakening\" effect. Dr. Sacks recounts the moving case histories of his patients, their lives, and the extraordinary transformations which went with their reintroduction to a changed world.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_10",
-            "identifier": "0375704051"
-          },
-          {
-            "type": "ISBN_13",
-            "identifier": "9780375704055"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": false
-        },
-        "pageCount": 466,
-        "printType": "BOOK",
-        "categories": [
-          "Psychology"
-        ],
-        "averageRating": 3.5,
-        "ratingsCount": 8,
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "0.2.2.0.preview.0",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=yrVEBsjWiBcC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=yrVEBsjWiBcC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com/books?id=yrVEBsjWiBcC&q=oliver+sacks&dq=oliver+sacks&hl=&cd=1&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=yrVEBsjWiBcC&dq=oliver+sacks&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Awakenings.html?hl=&id=yrVEBsjWiBcC"
-      },
-      "saleInfo": {
-        "country": "NP",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "NP",
-        "viewability": "NO_PAGES",
-        "embeddable": false,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=yrVEBsjWiBcC&hl=&source=gbs_api",
-        "accessViewStatus": "NONE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "Awakenings—which inspired the major motion picture starring Robert DeNiro and Robin Williams—is the remarkable story of a group of patients who contracted sleeping-sickness during the great epidemic just after World War I. Frozen for ..."
-      },
-      "readingStatus": 0
-    },
-    {
-      "kind": "books#volume",
-      "id": "g40bVuX9wmYC",
-      "etag": "4d8xLdGB2P8",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/g40bVuX9wmYC",
-      "volumeInfo": {
-        "title": "The Da Vinci Code",
-        "subtitle": "A Novel",
-        "authors": [
-          "Dan Brown"
-        ],
-        "publishedDate": "2003",
-        "description": "Robert Langdon, Harvard Professor of symbology, receives an urgent late-night call while in Paris: the curator of the Louvre has been murdered. Alongside the body is a series of baffling ciphers. Langdon and a gifted French cryptologist, Sophie Neveu, are stunned to find a trail that leads to the to the works of Da Vinci - and further. The curator, part of a secret society named the Priory of Sion, may have sacrificed his life to keep secret the location of a vastly important religious relic hidden for centuries. It appears that the clandestine Vatican-sanctioned Catholic sect Opus Dei has now made its move. Unless Landon and Neveu can decipher the labyrinthine code and quickly assemble the pieces of the puzzle, the Priory's secret - and a stunning historical truth - will be lost forever.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_10",
-            "identifier": "0593051521"
-          },
-          {
-            "type": "ISBN_13",
-            "identifier": "9780593051528"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": false
-        },
-        "pageCount": 468,
-        "printType": "BOOK",
-        "categories": [
-          "American fiction"
-        ],
-        "averageRating": 3,
-        "ratingsCount": 3458,
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "0.2.1.0.preview.0",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=g40bVuX9wmYC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=g40bVuX9wmYC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com/books?id=g40bVuX9wmYC&q=dan+brown&dq=dan+brown&hl=&cd=5&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=g40bVuX9wmYC&dq=dan+brown&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/The_Da_Vinci_Code.html?hl=&id=g40bVuX9wmYC"
-      },
-      "saleInfo": {
-        "country": "NP",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "NP",
-        "viewability": "NO_PAGES",
-        "embeddable": false,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=g40bVuX9wmYC&hl=&source=gbs_api",
-        "accessViewStatus": "NONE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "Alongside the body is a series of baffling ciphers. Langdon and a gifted French cryptologist, Sophie Neveu, are stunned to find a trail that leads to the to the works of Da Vinci - and further."
-      },
-      "readingStatus": 0
-    },
-    {
-      "kind": "books#volume",
-      "id": "DwCNEAAAQBAJ",
-      "etag": "0pVObxRJhZ0",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/DwCNEAAAQBAJ",
-      "volumeInfo": {
-        "title": "The Lost Symbol",
-        "authors": [
-          "Dan Brown"
-        ],
         "publisher": "National Geographic Books",
-        "publishedDate": "2012-05-01",
-        "description": "#1 WORLDWIDE BESTSELLER • An intelligent, lightning-paced thriller set within the hidden chambers, tunnels, and temples of Washington, D.C., with surprises at every turn. • Don’t miss the Peacock original series Dan Brown’s The Lost Symbol! Famed Harvard symbologist Robert Langdon answers an unexpected summons to appear at the U.S. Capitol Building. His plans are interrupted when a disturbing object—artfully encoded with five symbols—is discovered in the building. Langdon recognizes in the find an ancient invitation into a lost world of esoteric, potentially dangerous wisdom. When his mentor Peter Solomon—a long-standing Mason and beloved philanthropist—is kidnapped, Langdon realizes that the only way to save Solomon is to accept the mystical invitation and plunge headlong into a clandestine world of Masonic secrets, hidden history, and one inconceivable truth ... all under the watchful eye of Dan Brown's most terrifying villain to date.",
+        "publishedDate": "2015-11-24",
+        "description": "“My predominant feeling is one of gratitude. I have loved and been loved. I have been given much and I have given something in return. Above all, I have been a sentient being, a thinking animal, on this beautiful planet, and that in itself has been an enormous privilege and adventure.” —Oliver Sacks No writer has succeeded in capturing the medical and human drama of illness as honestly and as eloquently as Oliver Sacks. During the last few months of his life, he wrote a set of essays in which he movingly explored his feelings about completing a life and coming to terms with his own death. “It is the fate of every human being,” Sacks writes, “to be a unique individual, to find his own path, to live his own life, to die his own death.” Together, these four essays form an ode to the uniqueness of each human being and to gratitude for the gift of life. “Oliver Sacks was like no other clinician, or writer. He was drawn to the homes of the sick, the institutions of the most frail and disabled, the company of the unusual and the ‘abnormal.’ He wanted to see humanity in its many variants and to do so in his own, almost anachronistic way—face to face, over time, away from our burgeoning apparatus of computers and algorithms. And, through his writing, he showed us what he saw.” —Atul Gawande, author of Being Mortal",
         "industryIdentifiers": [
           {
             "type": "ISBN_13",
-            "identifier": "9780307950680"
+            "identifier": "9780451492937"
           },
           {
             "type": "ISBN_10",
-            "identifier": "0307950689"
+            "identifier": "0451492935"
           }
         ],
         "readingModes": {
@@ -2181,10 +2029,10 @@
         "pageCount": 0,
         "printType": "BOOK",
         "categories": [
-          "Fiction"
+          "Biography & Autobiography"
         ],
-        "averageRating": 3.5,
-        "ratingsCount": 104,
+        "averageRating": 4,
+        "ratingsCount": 679,
         "maturityRating": "NOT_MATURE",
         "allowAnonLogging": false,
         "contentVersion": "preview-1.0.0",
@@ -2193,13 +2041,13 @@
           "containsImageBubbles": false
         },
         "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=DwCNEAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=DwCNEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          "smallThumbnail": "http://books.google.com/books/content?id=vcWNEAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=vcWNEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         },
         "language": "en",
-        "previewLink": "http://books.google.com/books?id=DwCNEAAAQBAJ&dq=dan+brown&hl=&cd=2&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=DwCNEAAAQBAJ&dq=dan+brown&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/The_Lost_Symbol.html?hl=&id=DwCNEAAAQBAJ"
+        "previewLink": "http://books.google.com/books?id=vcWNEAAAQBAJ&dq=oliver+sacks&hl=&cd=13&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=vcWNEAAAQBAJ&dq=oliver+sacks&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Gratitude.html?hl=&id=vcWNEAAAQBAJ"
       },
       "saleInfo": {
         "country": "NP",
@@ -2218,14 +2066,14 @@
         "pdf": {
           "isAvailable": false
         },
-        "webReaderLink": "http://play.google.com/books/reader?id=DwCNEAAAQBAJ&hl=&source=gbs_api",
+        "webReaderLink": "http://play.google.com/books/reader?id=vcWNEAAAQBAJ&hl=&source=gbs_api",
         "accessViewStatus": "NONE",
         "quoteSharingAllowed": false
       },
       "searchInfo": {
-        "textSnippet": "#1 WORLDWIDE BESTSELLER • An intelligent, lightning-paced thriller set within the hidden chambers, tunnels, and temples of Washington, D.C., with surprises at every turn. • Don’t miss the Peacock original series Dan Brown’s The Lost ..."
+        "textSnippet": "During the last few months of his life, he wrote a set of essays in which he movingly explored his feelings about completing a life and coming to terms with his own death. “It is the fate of every human being,” Sacks writes, “to be a ..."
       },
-      "readingStatus": 0
+      "readingStatus": 1
     },
     {
       "kind": "books#volume",
@@ -2297,56 +2145,65 @@
       "readingStatus": 0
     },
     {
-      "kind": "books#volume",
-      "id": "tOjavKkVRNoC",
-      "etag": "X8kKLnCOXhI",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/tOjavKkVRNoC",
       "volumeInfo": {
-        "title": "Seeing Voices",
-        "subtitle": "A Journey Into the World of the Deaf",
+        "title": "Monte Cinque",
+        "description": "",
         "authors": [
-          "Oliver Sacks",
-          "Oliver W. Sacks"
+          "Paulo Coelho"
         ],
-        "publisher": "Univ of California Press",
-        "publishedDate": "1989-01-01",
-        "description": "A neurologist investigates the world of the deaf, examining their past and present treatment at the hands of society, and assesses the value and significance of sign language.",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=w5b2swEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=w5b2swEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        }
+      },
+      "id": "ys99E7jOPZ",
+      "readingStatus": 2
+    },
+    {
+      "kind": "books#volume",
+      "id": "MLJoAAAAMAAJ",
+      "etag": "VPyG90lnbN8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/MLJoAAAAMAAJ",
+      "volumeInfo": {
+        "title": "Oaxaca Journal",
+        "authors": [
+          "Oliver Sacks"
+        ],
+        "publisher": "National Geographic Society",
+        "publishedDate": "2002",
+        "description": "This new series of literary travel memoirs presents the world's most prominent novelists, nonfiction writers, poets, and playwrights, many writing about travel for the first time.",
         "industryIdentifiers": [
           {
-            "type": "ISBN_10",
-            "identifier": "0520060830"
-          },
-          {
-            "type": "ISBN_13",
-            "identifier": "9780520060838"
+            "type": "OTHER",
+            "identifier": "UTEXAS:059173009911883"
           }
         ],
         "readingModes": {
           "text": false,
-          "image": true
+          "image": false
         },
-        "pageCount": 204,
+        "pageCount": 190,
         "printType": "BOOK",
         "categories": [
-          "Social Science"
+          "Ferns"
         ],
-        "averageRating": 3.5,
-        "ratingsCount": 12,
+        "averageRating": 4,
+        "ratingsCount": 10,
         "maturityRating": "NOT_MATURE",
         "allowAnonLogging": false,
-        "contentVersion": "0.4.4.0.preview.1",
+        "contentVersion": "0.3.4.0.preview.0",
         "panelizationSummary": {
           "containsEpubBubbles": false,
           "containsImageBubbles": false
         },
         "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=tOjavKkVRNoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=tOjavKkVRNoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "smallThumbnail": "http://books.google.com/books/content?id=MLJoAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=MLJoAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         },
         "language": "en",
-        "previewLink": "http://books.google.com/books?id=tOjavKkVRNoC&printsec=frontcover&dq=oliver+sacks&hl=&cd=2&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=tOjavKkVRNoC&dq=oliver+sacks&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Seeing_Voices.html?hl=&id=tOjavKkVRNoC"
+        "previewLink": "http://books.google.com/books?id=MLJoAAAAMAAJ&q=oliver+sacks&dq=oliver+sacks&hl=&cd=14&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=MLJoAAAAMAAJ&dq=oliver+sacks&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Oaxaca_Journal.html?hl=&id=MLJoAAAAMAAJ"
       },
       "saleInfo": {
         "country": "NP",
@@ -2355,25 +2212,24 @@
       },
       "accessInfo": {
         "country": "NP",
-        "viewability": "PARTIAL",
-        "embeddable": true,
+        "viewability": "NO_PAGES",
+        "embeddable": false,
         "publicDomain": false,
         "textToSpeechPermission": "ALLOWED",
         "epub": {
           "isAvailable": false
         },
         "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.com/books/download/Seeing_Voices-sample-pdf.acsm?id=tOjavKkVRNoC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          "isAvailable": false
         },
-        "webReaderLink": "http://play.google.com/books/reader?id=tOjavKkVRNoC&hl=&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
+        "webReaderLink": "http://play.google.com/books/reader?id=MLJoAAAAMAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
         "quoteSharingAllowed": false
       },
       "searchInfo": {
-        "textSnippet": "A neurologist investigates the world of the deaf, examining their past and present treatment at the hands of society, and assesses the value and significance of sign language."
+        "textSnippet": "This new series of literary travel memoirs presents the world&#39;s most prominent novelists, nonfiction writers, poets, and playwrights, many writing about travel for the first time."
       },
-      "readingStatus": 0
+      "readingStatus": 1
     }
   ]
 }

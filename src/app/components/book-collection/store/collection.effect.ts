@@ -55,6 +55,18 @@ export class CollectionEffects {
     );
   });
 
+  readonly changeReadingStatus$ = createEffect(() => {
+    return this.actions$.pipe(
+      ofType(CollectionItemActions.changeReadingStatus),
+      exhaustMap(({item}) => {
+        return this.collectionApiService.updateReadingStatus(item.id, item.readingStatus).pipe(
+          map((item) => CollectionItemActions.changeReadingStatusSuccess({bookId: item.id, readingStatus: item.readingStatus})),
+          catchError(error => of(CollectionItemActions.failure({error})))
+        )
+      })
+    )
+  })
+
   constructor(
     private actions$: Actions,
     private collectionApiService: CollectionApiService // private store: Store<AppState>
