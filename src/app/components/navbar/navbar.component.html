@@ -1,0 +1,31 @@
+<ng-container *ngIf="user | async as user">
+    <mat-toolbar>
+        <h1>
+            {{title}}
+        </h1>
+
+        <div class="main-menu">
+            <ul>
+                <li>
+                    <a [routerLink]="['/counter']">Counter</a>
+                </li>
+                <li>
+                    <a [routerLink]="['/home']">Books</a>
+                </li>
+                <!-- <li>
+                <a routerLink="/admin/books">Admin</a>
+            </li> -->
+            </ul>
+            <button class="logout-button" mat-icon-button (click)="logout()" >
+                <mat-icon>
+                    logout
+                </mat-icon>
+            </button>
+            <!-- <span class="person">
+                <mat-icon>
+                    account_circle
+                </mat-icon>
+            </span> -->
+        </div>
+    </mat-toolbar>
+</ng-container>

@@ -1,0 +1,53 @@
+// @import "https://fonts.googleapis.com/icon?family=Material+Icons";
+@import '/src/assets/scss/styles.scss';
+
+
+.book-item {
+  padding: 10px;
+  border: solid 1px black;
+  position: relative;
+  
+  img {
+    width: 100%;
+    height: autos;
+  }
+  
+  .book-item-body {
+    .book-title {
+      margin: 0;
+      font-size: 1.3em;
+      font-weight: 600;
+      padding: 10px 0;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+
+      :hover {
+        overflow: visible;
+      }
+    }
+
+    .wish-btn-wrapper {
+      display: flex;
+      margin-top: 0.8em;
+      
+      .wish-btn-container {
+        border-radius: 0 50% ;
+        background-color: white;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+
+      button.wish-btn {
+        border: none;
+        // padding: 0.5em;
+        // width: 100%;
+        // background-color: $torquoise-dark-l;
+        // color: white;
+        // font-weight: bold;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,9 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CounterComponent } from './components/counter/counter.component';
-import { TodosComponent } from './components/todos/todos.component';
-import { BookListComponent } from './components/book-list/book-list.component';
-import { BookAdminComponent } from './components/book-admin/book-admin.component';
+import { CounterComponent } from './modules/counter/counter.component';
+import { TodosComponent } from './modules/todos/todos.component';
+import { BookListComponent } from './modules/book-list/book-list.component';
+import { PageNotFoundComponent } from './modules/page-not-found/page-not-found.component';
+import { canMatchAdminRoleGuard } from '@core/auth/guards/canMatchAdminRole.guard';
+import { canActivateBook } from './core/auth/guards/canActivateBook.guard';
 
 const routes: Routes = [
   {
@@ -12,11 +14,33 @@ const routes: Routes = [
   },
   { path: 'todos', component: TodosComponent },
   {
-    path: 'books', component: BookListComponent
+    path: 'account',
+    loadChildren: () =>
+      import('./modules/account/account.module').then((m) => m.AccountModule),
   },
   {
-    path: 'admin/books', component: BookAdminComponent
-  }
+    path: 'home',
+    canActivate : [canActivateBook],
+    canMatch: [canMatchAdminRoleGuard],
+    loadChildren: () =>
+      import('./modules/book-admin/book-admin.module').then(
+        (m) => m.BookAdminModule
+      ),
+  },
+  {
+    path: 'home',
+    component: BookListComponent,
+    canActivate: [canActivateBook]
+  },
+  {
+    path: '',
+    redirectTo: '/account/login',
+    pathMatch: 'full',
+  },
+  {
+    path: '**',
+    component: PageNotFoundComponent,
+  },
 ];
 
 @NgModule({

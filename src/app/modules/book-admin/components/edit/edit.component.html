@@ -1,0 +1,75 @@
+<ng-container *ngIf="book$ | async as book; else elseBlock">
+    <form id="edit-book-form" [formGroup]="editBookForm" (ngSubmit)="submit()">
+        <div>
+            <mat-form-field class="full-width" appearance="outline">
+                <mat-label>Title</mat-label>
+                <input matInput type="text" formControlName="title">
+
+                <mat-error *ngIf="f['title'].errors && f['title'].touched">Title is required!</mat-error>
+
+            </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field class="full-width" appearance="outline">
+                <mat-label>Description</mat-label>
+                <textarea matInput cols="30" rows="5" type="text" formControlName="description"></textarea>
+                <mat-error *ngIf="f['description'].errors && f['description'].touched">Title is required!</mat-error>
+            </mat-form-field>
+        </div>
+        <div>
+            <ng-container formArrayName="authors">
+                <h3>Authors</h3>
+                <div *ngFor="let author of authors.controls;let i = index" class="author-wrapper">
+                    <mat-form-field class="full-width" appearance="outline">
+                        <mat-label>author</mat-label>
+                        <input matInput type="text" [formControlName]="i">
+                    </mat-form-field>
+                    <button mat-raised-button color="warn" type="button" (click)="removeAuthor(i)">Delete</button>
+                </div>
+                <button mat-raised-button color="primary" (click)="addAuthor()" [disabled]="editBookForm.invalid"
+                    type="button">Add</button>
+            </ng-container>
+        </div>
+        <div>
+            <ng-container formGroupName="imageLinks">
+                <h3>Image Links</h3>
+                <div>
+                    <mat-form-field class="full-width" appearance="outline">
+                        <mat-label>Small Thumbnail</mat-label>
+                        <input matInput type=" text" formControlName="smallThumbnail">
+                        <ng-container *ngIf="imageLinks.controls['smallThumbnail'].errors as errors">
+                            <mat-error *ngFor="let error in errors;">{{error}}</mat-error>
+                        </ng-container>
+                    </mat-form-field>
+                    <img [src]="f['imageLinks'].value.smallThumbnail" alt="smallThumbnail">
+                </div>
+                <div>
+                    <mat-form-field class="full-width" appearance="outline">
+                        <mat-label>Thumbnail</mat-label>
+                        <input matInput type=" text" formControlName="thumbnail">
+                        <ng-container *ngIf="imageLinks.controls['thumbnail'].errors as errors">
+                            <mat-error *ngFor="let error in errors;">{{error}}</mat-error>
+                        </ng-container>
+                    </mat-form-field>
+                    <img [src]="f['imageLinks'].value.thumbnail" alt="smallThumbnail">
+                </div>
+            </ng-container>
+        </div>
+        <div class="form-action-btn">
+            <a mat-raised-button color="warn" [routerLink]="['/home']">Cancel</a>
+            <button mat-raised-button color="primary" type="submit" [disabled]="editBookForm.invalid"> Save </button>
+        </div>
+    </form>
+
+    <ng-container *ngIf="(formState$ | async) as formState">
+        <div class="message-box success" *ngIf="formState.formSubmitionSuccess">Book Edited Successfully! <a
+                [routerLink]="['/home']">Goto Book List </a> </div>
+        <div class="message-box error" *ngIf="formState.error">Cannot Edit Book. Please Try again</div>
+    </ng-container>
+</ng-container>
+
+
+<ng-template #elseBlock>
+    <div> cannot find book with id : {{id}}</div>
+    <a [routerLink]="['/home']"> Go back </a>
+</ng-template>

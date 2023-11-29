@@ -1,0 +1,38 @@
+#edit-book-form {
+    max-width: 600px;
+}
+
+img {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.full-width {
+    width: 100%
+}
+
+.author-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.message-box {
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.success {
+    background-color: #A8DF8E;
+}
+
+.error {
+    background-color: #FF8080;
+}
+
+.form-action-btn{
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+}

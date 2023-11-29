@@ -76,82 +76,25 @@
       "completed": false
     }
   ],
-  "books": [
+  "users": [
     {
-      "kind": "books#volume",
-      "id": "yrVEBsjWiBcC",
-      "etag": "Wb9FCmV2nlw",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/yrVEBsjWiBcC",
-      "volumeInfo": {
-        "title": "Awakenings",
-        "authors": [
-          "Oliver Sacks"
-        ],
-        "publisher": "Vintage",
-        "publishedDate": "1999-10-05",
-        "description": "Awakenings--which inspired the major motion picture--is the remarkable story of a group of patients who contracted sleeping-sickness during the great epidemic just after World War I. Frozen for decades in a trance-like state, these men and women were given up as hopeless until 1969, when Dr. Oliver Sacks gave them the then-new drug L-DOPA, which had an astonishing, explosive, \"awakening\" effect. Dr. Sacks recounts the moving case histories of his patients, their lives, and the extraordinary transformations which went with their reintroduction to a changed world.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_10",
-            "identifier": "0375704051"
-          },
-          {
-            "type": "ISBN_13",
-            "identifier": "9780375704055"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": false
-        },
-        "pageCount": 466,
-        "printType": "BOOK",
-        "categories": [
-          "Psychology"
-        ],
-        "averageRating": 3.5,
-        "ratingsCount": 8,
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "0.2.2.0.preview.0",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=yrVEBsjWiBcC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=yrVEBsjWiBcC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com/books?id=yrVEBsjWiBcC&q=oliver+sacks&dq=oliver+sacks&hl=&cd=1&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=yrVEBsjWiBcC&dq=oliver+sacks&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Awakenings.html?hl=&id=yrVEBsjWiBcC"
-      },
-      "saleInfo": {
-        "country": "NP",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "NP",
-        "viewability": "NO_PAGES",
-        "embeddable": false,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=yrVEBsjWiBcC&hl=&source=gbs_api",
-        "accessViewStatus": "NONE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "Awakenings—which inspired the major motion picture starring Robert DeNiro and Robin Williams—is the remarkable story of a group of patients who contracted sleeping-sickness during the great epidemic just after World War I. Frozen for ..."
-      }
+      "id": "DwCNEAAAQBAI",
+      "username": "Jane Doe",
+      "password": "jane",
+      "email": "janedoe@example.com",
+      "role": "user",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJEd0NORUFBQVFCQUkiLCJyb2xlIjoidXNlciIsImlhdCI6MTUxNjIzOTAyMn0.RTCk27iP1B3hkcP7eAFKCmn1PLGVvUAH37nkUDxJuCI"
     },
+    {
+      "id": "WwCNEAAAQBAk",
+      "username": "Admin",
+      "email": "admin@example.com",
+      "password": "admin",
+      "role": "admin",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJXd0NORUFBQVFCQWsiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE1MTYyMzkwMjJ9.OUvfz7a7yJFU71KT38g4T6kpbNsqXY6MMJbxVwVyEAU"
+    }
+  ],
+  "books": [
     {
       "kind": "books#volume",
       "id": "tOjavKkVRNoC",
@@ -1996,9 +1939,263 @@
         }
       },
       "id": "ys99E7jOPZ"
+    },
+    {
+      "id": "Z5DbmNxCd3",
+      "volumeInfo": {
+        "title": "Harry Potter and The Cursed Child",
+        "description": "this is a description",
+        "imageLinks": {
+          "smallThumbnail": "https://bukovero.com/wp-content/uploads/2016/07/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg",
+          "thumbnail": "https://bukovero.com/wp-content/uploads/2016/07/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg"
+        },
+        "authors": [
+          "sfdgsfgdfg",
+          "sfgsfgfg"
+        ]
+      }
+    },
+    {
+      "volumeInfo": {
+        "title": "dsgfsdg",
+        "description": "sdgffsgdfgdfg",
+        "authors": [
+          "dfgdfgdfgfdg",
+          "sfgdfgdfg"
+        ],
+        "imageLinks": {
+          "smallThumbnail": "https://blog-cdn.reedsy.com/directories/gallery/78/large_649eadedf5dcdd97768824de1a48c6da.jpeg",
+          "thumbnail": "https://blog-cdn.reedsy.com/directories/gallery/78/large_649eadedf5dcdd97768824de1a48c6da.jpeg"
+        }
+      },
+      "id": "rCihrFFu3P"
     }
   ],
   "collections": [
+    {
+      "kind": "books#volume",
+      "id": "zIPioQEACAAJ",
+      "etag": "71l/iOg7ccY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/zIPioQEACAAJ",
+      "volumeInfo": {
+        "title": "The Man Who Mistook His Wife for a Hat",
+        "authors": [
+          "Oliver Sacks"
+        ],
+        "publisher": "Picador",
+        "publishedDate": "2015-01-01",
+        "description": "With an introduction by Will SelfA classic work of psychology, this international bestseller provides a groundbreaking insight into the human mind.If a man has lost a leg or an eye, he knows he has lost a leg or an eye; but if he has lost a self - himself - he cannot know it, because he is no longer there to know it. In this extraordinary book, Dr. Oliver Sacks recounts the stories of patients struggling to adapt to often bizarre worlds of neurological disorder. Here are people who can no longer recognize everyday objects or those they love; who are stricken with violent tics or shout involuntary obscenities; who have been dismissed as autistic or retarded, yet are gifted with uncanny artistic or mathematical talents. If inconceivably strange, these brilliant tales illuminate what it means to be human. A provocative exploration of the mysteries of the human mind, The Man Who Mistook His Wife for a Hat is a million-copy bestseller by the twentieth century's greatest neurologist.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1447275403"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781447275404"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 300,
+        "printType": "BOOK",
+        "averageRating": 3.5,
+        "ratingsCount": 3415,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=zIPioQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=zIPioQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=zIPioQEACAAJ&dq=oliver+sacks&hl=&cd=12&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=zIPioQEACAAJ&dq=oliver+sacks&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Man_Who_Mistook_His_Wife_for_a_Hat.html?hl=&id=zIPioQEACAAJ"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=zIPioQEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "In this extraordinary book, Dr Oliver Sacks recounts the stories of patients struggling to adapt to often bizarre worlds of neurological disorder."
+      },
+      "readingStatus": 1
+    },
+    {
+      "kind": "books#volume",
+      "id": "u8-ywPTzb5YC",
+      "etag": "rSkLUTyMp9k",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/u8-ywPTzb5YC",
+      "volumeInfo": {
+        "title": "Harper Lee",
+        "subtitle": "To Kill a Mockingbird",
+        "authors": [
+          "Andrew Haggerty"
+        ],
+        "publisher": "Marshall Cavendish",
+        "publishedDate": "2010",
+        "description": "An in-depth analysis of Harper Lee, his writings, and the historical time period in which they were written.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0761447024"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780761447023"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 130,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Nonfiction"
+        ],
+        "averageRating": 2,
+        "ratingsCount": 4,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "3.4.7.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=u8-ywPTzb5YC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=u8-ywPTzb5YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=u8-ywPTzb5YC&printsec=frontcover&dq=harper+lee&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=u8-ywPTzb5YC&dq=harper+lee&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Harper_Lee.html?hl=&id=u8-ywPTzb5YC"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Harper_Lee-sample-epub.acsm?id=u8-ywPTzb5YC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Harper_Lee-sample-pdf.acsm?id=u8-ywPTzb5YC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=u8-ywPTzb5YC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "An in-depth analysis of Harper Lee, his writings, and the historical time period in which they were written."
+      },
+      "readingStatus": 2
+    },
+    {
+      "kind": "books#volume",
+      "id": "yrVEBsjWiBcC",
+      "etag": "Wb9FCmV2nlw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/yrVEBsjWiBcC",
+      "volumeInfo": {
+        "title": "Awakenings",
+        "authors": [
+          "Oliver Sacks"
+        ],
+        "publisher": "Vintage",
+        "publishedDate": "1999-10-05",
+        "description": "Awakenings--which inspired the major motion picture--is the remarkable story of a group of patients who contracted sleeping-sickness during the great epidemic just after World War I. Frozen for decades in a trance-like state, these men and women were given up as hopeless until 1969, when Dr. Oliver Sacks gave them the then-new drug L-DOPA, which had an astonishing, explosive, \"awakening\" effect. Dr. Sacks recounts the moving case histories of his patients, their lives, and the extraordinary transformations which went with their reintroduction to a changed world.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0375704051"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780375704055"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 466,
+        "printType": "BOOK",
+        "categories": [
+          "Psychology"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 8,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=yrVEBsjWiBcC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=yrVEBsjWiBcC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=yrVEBsjWiBcC&q=oliver+sacks&dq=oliver+sacks&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=yrVEBsjWiBcC&dq=oliver+sacks&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Awakenings.html?hl=&id=yrVEBsjWiBcC"
+      },
+      "saleInfo": {
+        "country": "NP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NP",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=yrVEBsjWiBcC&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Awakenings—which inspired the major motion picture starring Robert DeNiro and Robin Williams—is the remarkable story of a group of patients who contracted sleeping-sickness during the great epidemic just after World War I. Frozen for ..."
+      },
+      "readingStatus": 2
+    },
     {
       "kind": "books#volume",
       "id": "vcWNEAAAQBAJ",
@@ -2073,137 +2270,57 @@
       "searchInfo": {
         "textSnippet": "During the last few months of his life, he wrote a set of essays in which he movingly explored his feelings about completing a life and coming to terms with his own death. “It is the fate of every human being,” Sacks writes, “to be a ..."
       },
-      "readingStatus": 0
-    },
-    {
-      "kind": "books#volume",
-      "id": "zIPioQEACAAJ",
-      "etag": "71l/iOg7ccY",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/zIPioQEACAAJ",
-      "volumeInfo": {
-        "title": "The Man Who Mistook His Wife for a Hat",
-        "authors": [
-          "Oliver Sacks"
-        ],
-        "publisher": "Picador",
-        "publishedDate": "2015-01-01",
-        "description": "With an introduction by Will SelfA classic work of psychology, this international bestseller provides a groundbreaking insight into the human mind.If a man has lost a leg or an eye, he knows he has lost a leg or an eye; but if he has lost a self - himself - he cannot know it, because he is no longer there to know it. In this extraordinary book, Dr. Oliver Sacks recounts the stories of patients struggling to adapt to often bizarre worlds of neurological disorder. Here are people who can no longer recognize everyday objects or those they love; who are stricken with violent tics or shout involuntary obscenities; who have been dismissed as autistic or retarded, yet are gifted with uncanny artistic or mathematical talents. If inconceivably strange, these brilliant tales illuminate what it means to be human. A provocative exploration of the mysteries of the human mind, The Man Who Mistook His Wife for a Hat is a million-copy bestseller by the twentieth century's greatest neurologist.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_10",
-            "identifier": "1447275403"
-          },
-          {
-            "type": "ISBN_13",
-            "identifier": "9781447275404"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": false
-        },
-        "pageCount": 300,
-        "printType": "BOOK",
-        "averageRating": 3.5,
-        "ratingsCount": 3415,
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "preview-1.0.0",
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=zIPioQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=zIPioQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com/books?id=zIPioQEACAAJ&dq=oliver+sacks&hl=&cd=12&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=zIPioQEACAAJ&dq=oliver+sacks&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/The_Man_Who_Mistook_His_Wife_for_a_Hat.html?hl=&id=zIPioQEACAAJ"
-      },
-      "saleInfo": {
-        "country": "NP",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "NP",
-        "viewability": "NO_PAGES",
-        "embeddable": false,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=zIPioQEACAAJ&hl=&source=gbs_api",
-        "accessViewStatus": "NONE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "In this extraordinary book, Dr Oliver Sacks recounts the stories of patients struggling to adapt to often bizarre worlds of neurological disorder."
-      },
       "readingStatus": 1
     },
     {
-      "volumeInfo": {
-        "title": "Monte Cinque",
-        "description": "",
-        "authors": [
-          "Paulo Coelho"
-        ],
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=w5b2swEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=w5b2swEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-        }
-      },
-      "id": "ys99E7jOPZ",
-      "readingStatus": 2
-    },
-    {
       "kind": "books#volume",
-      "id": "MLJoAAAAMAAJ",
-      "etag": "VPyG90lnbN8",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/MLJoAAAAMAAJ",
+      "id": "Z1XoRQAACAAJ",
+      "etag": "U4OPZk7c5TY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Z1XoRQAACAAJ",
       "volumeInfo": {
-        "title": "Oaxaca Journal",
+        "title": "The Mind's Eye",
         "authors": [
-          "Oliver Sacks"
+          "Oliver W. Sacks"
         ],
-        "publisher": "National Geographic Society",
-        "publishedDate": "2002",
-        "description": "This new series of literary travel memoirs presents the world's most prominent novelists, nonfiction writers, poets, and playwrights, many writing about travel for the first time.",
+        "publisher": "Picador USA",
+        "publishedDate": "2010",
+        "description": "Includes stories of people who are able to navigate the world and communicate with others despite losing what many of us consider indispensable senses and faculties: the power of speech, the capacity to recognize faces, the sense of three-dimensional space, the ability to read, and the sense of sight. This book is a testament to the complexity of vision and the brain and to the power of creativity and adaptation, and it provides a whole new perspective on the power of language and communication, as we try to imagine what it is to perceive through another person's eyes, or another person's mind.",
         "industryIdentifiers": [
           {
-            "type": "OTHER",
-            "identifier": "UTEXAS:059173009911883"
+            "type": "ISBN_10",
+            "identifier": "033050889X"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780330508896"
           }
         ],
         "readingModes": {
           "text": false,
           "image": false
         },
-        "pageCount": 190,
+        "pageCount": 0,
         "printType": "BOOK",
         "categories": [
-          "Ferns"
+          "Blindness"
         ],
-        "averageRating": 4,
-        "ratingsCount": 10,
+        "averageRating": 3.5,
+        "ratingsCount": 28,
         "maturityRating": "NOT_MATURE",
         "allowAnonLogging": false,
-        "contentVersion": "0.3.4.0.preview.0",
+        "contentVersion": "preview-1.0.0",
         "panelizationSummary": {
           "containsEpubBubbles": false,
           "containsImageBubbles": false
         },
         "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=MLJoAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=MLJoAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          "smallThumbnail": "http://books.google.com/books/content?id=Z1XoRQAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Z1XoRQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         },
         "language": "en",
-        "previewLink": "http://books.google.com/books?id=MLJoAAAAMAAJ&q=oliver+sacks&dq=oliver+sacks&hl=&cd=14&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=MLJoAAAAMAAJ&dq=oliver+sacks&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Oaxaca_Journal.html?hl=&id=MLJoAAAAMAAJ"
+        "previewLink": "http://books.google.com/books?id=Z1XoRQAACAAJ&dq=oliver+sacks&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=Z1XoRQAACAAJ&dq=oliver+sacks&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Mind_s_Eye.html?hl=&id=Z1XoRQAACAAJ"
       },
       "saleInfo": {
         "country": "NP",
@@ -2222,14 +2339,14 @@
         "pdf": {
           "isAvailable": false
         },
-        "webReaderLink": "http://play.google.com/books/reader?id=MLJoAAAAMAAJ&hl=&source=gbs_api",
+        "webReaderLink": "http://play.google.com/books/reader?id=Z1XoRQAACAAJ&hl=&source=gbs_api",
         "accessViewStatus": "NONE",
         "quoteSharingAllowed": false
       },
       "searchInfo": {
-        "textSnippet": "This new series of literary travel memoirs presents the world&#39;s most prominent novelists, nonfiction writers, poets, and playwrights, many writing about travel for the first time."
+        "textSnippet": "This book is a testament to the complexity of vision and the brain and to the power of creativity and adaptation, and it provides a whole new perspective on the power of language and communication, as we try to imagine what it is to ..."
       },
-      "readingStatus": 1
+      "readingStatus": 0
     }
   ]
 }

@@ -1,4 +1,4 @@
-import { Book } from 'src/app/components/book-list/model/books.model';
+import { Book } from 'src/app/modules/book-list/model/books.model';
 
 export const mockBookArray = [
   {

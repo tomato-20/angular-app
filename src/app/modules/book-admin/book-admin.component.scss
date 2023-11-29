@@ -1,0 +1,12 @@
+nav {
+    ul {
+        display: flex;
+        flex-direction: row;
+        padding:1.5rem 0;
+
+        li  {
+            margin-right: 1em;
+            list-style: none;
+        }
+    }
+}
